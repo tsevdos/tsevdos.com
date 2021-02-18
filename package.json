@@ -4,10 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start"
   },
   "dependencies": {
+    "@mdx-js/loader": "1.6.22",
+    "@mdx-js/react": "1.6.22",
+    "@next/mdx": "10.0.7",
     "next": "10.0.7",
     "react": "17.0.1",
     "react-dom": "17.0.1"
