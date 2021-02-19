@@ -1,6 +1,3 @@
-import Head from "next/head";
-import Config from "../constants/config";
-
 export default function Home() {
   return (
     <main>

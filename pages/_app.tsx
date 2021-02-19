@@ -1,13 +1,13 @@
 import Head from "next/head";
 import Header from "../components/Header";
 import Config from "../constants/config";
-import "../styles/globals.css";
+import { AppProps } from "next/app";
 
-function MyApp({ Component, pageProps }) {
+export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <title>{`${Config.title} | ${Config.tagline}`}</title>
         <meta name="Description" content={Config.tagline}></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -21,7 +21,6 @@ function MyApp({ Component, pageProps }) {
           </div>
         </div>
       </div>
-
       <script src="assets/js/jquery.min.js"></script>
       <script src="assets/js/browser.min.js"></script>
       <script src="assets/js/breakpoints.min.js"></script>
@@ -30,5 +29,3 @@ function MyApp({ Component, pageProps }) {
     </>
   );
 }
-
-export default MyApp;
