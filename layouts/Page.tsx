@@ -1,7 +1,14 @@
+import { FC, ReactChildren } from "react";
 import Head from "next/head";
 import Config from "../constants/config";
+import { Meta } from "../types/Meta";
 
-export default function Page({ children, meta }) {
+type PageProps = {
+  children: ReactChildren;
+  meta: Meta;
+};
+
+const Page: FC<PageProps> = ({ children, meta }) => {
   const { title, description } = meta;
   const pageTitle = title ? `${title} | ${Config.title}` : Config.title;
   const pageDescription = description ? description : Config.tagline;
@@ -20,4 +27,6 @@ export default function Page({ children, meta }) {
       </main>
     </>
   );
-}
+};
+
+export default Page;

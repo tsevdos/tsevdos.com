@@ -1,9 +1,10 @@
+import { FC } from "react";
 import Head from "next/head";
 import Header from "../components/Header";
 import Config from "../constants/config";
 import { AppProps } from "next/app";
 
-export default function MyApp({ Component, pageProps }: AppProps) {
+const MyApp: FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <>
       <Head>
@@ -28,4 +29,6 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       <script src="assets/js/main.js"></script>
     </>
   );
-}
+};
+
+export default MyApp;
