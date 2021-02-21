@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header h1,
+.header p {
+  margin: 0;
+}
+
+.header p {
+  align-self: flex-end;
+}

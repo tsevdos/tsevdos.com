@@ -1,6 +1,7 @@
 import { FC } from "react";
 import Head from "next/head";
 import Header from "../components/Header";
+import Sidebar from "../components/Sidebar";
 import Config from "../constants/config";
 import { AppProps } from "next/app";
 
@@ -18,9 +19,12 @@ const MyApp: FC<AppProps> = ({ Component, pageProps }) => {
         <div id="main">
           <div className="inner">
             <Header />
-            <Component {...pageProps} />
+            <section>
+              <Component {...pageProps} />
+            </section>
           </div>
         </div>
+        <Sidebar />
       </div>
       <script src="assets/js/jquery.min.js"></script>
       <script src="assets/js/browser.min.js"></script>

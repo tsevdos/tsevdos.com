@@ -1,12 +1,13 @@
+import { FC } from "react";
 import Link from "next/link";
 import Config from "../constants/config";
 
-export default function Header() {
+const Header: FC = () => {
   return (
     <header id="header">
       <Link href="/">
         <a className="logo">
-          <strong>{Config.title}</strong> by {Config.author}
+          <strong>{Config.title}</strong>
         </a>
       </Link>
       <ul className="icons">
@@ -47,4 +48,6 @@ export default function Header() {
       </ul>
     </header>
   );
-}
+};
+
+export default Header;
