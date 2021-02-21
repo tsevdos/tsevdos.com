@@ -13,12 +13,7 @@ const MyApp: FC<AppProps> = ({ Component, pageProps }) => {
         <title>{`${Config.title} | ${Config.tagline}`}</title>
         <meta name="Description" content={Config.tagline}></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="assets/css/main.css" />
-        <script src="/assets/js/jquery.min.js"></script>
-        <script src="/assets/js/browser.min.js"></script>
-        <script src="/assets/js/breakpoints.min.js"></script>
-        <script src="/assets/js/util.js"></script>
-        <script src="/assets/js/main.js"></script>
+        <link rel="stylesheet" href="/assets/css/main.css" />
       </Head>
       <div id="wrapper">
         <div id="main">
