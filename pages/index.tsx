@@ -9,13 +9,17 @@ type HomeProps = {
 };
 
 const Home: FC<HomeProps> = ({ posts }) => {
-  return posts.map(({ title, slug }) => (
-    <h3>
-      <Link href={`/${slug}`}>
-        <a>{title}</a>
-      </Link>
-    </h3>
-  ));
+  return (
+    <>
+      {posts.map(({ title, slug }) => (
+        <h3>
+          <Link href={`/${slug}`}>
+            <a>{title}</a>
+          </Link>
+        </h3>
+      ))}
+    </>
+  );
 };
 
 export const getStaticProps: GetStaticProps = async () => {
