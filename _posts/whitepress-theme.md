@@ -1,6 +1,7 @@
 ---
 title: "Whitepress theme"
 date: "2008-06-09"
+type: "page"
 ---
 
 ## Theme Features

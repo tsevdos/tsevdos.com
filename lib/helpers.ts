@@ -1,10 +1,11 @@
 import fs from "fs";
 import path from "path";
+import matter from "gray-matter";
 
-const pagesDirectory = path.join(process.cwd(), "content");
+const contentDirectory = path.join(process.cwd(), "_posts");
 
-export const getAllPagesSlugs = () => {
-  const fileNames = fs.readdirSync(pagesDirectory);
+export const getAllSlugs = () => {
+  const fileNames = fs.readdirSync(contentDirectory);
 
   return fileNames.map((filename) =>  ({
     params: {
@@ -13,9 +14,32 @@ export const getAllPagesSlugs = () => {
   }));
 };
 
-export const getPagedata = async (slug: string): Promise<string> => {
-  const fullPath = path.join(pagesDirectory, `${slug}.md`);
-  const postContent = fs.readFileSync(fullPath, "utf8");
+export const getPostdata = async (slug: string): Promise<string> => {
+  const fullPath = path.join(contentDirectory, `${slug}.md`);
+  const content = fs.readFileSync(fullPath, "utf8");
 
-  return postContent;
+  return content;
+};
+
+export const getSortedPosts = () => {
+  const fileNames = fs.readdirSync(contentDirectory);
+
+  return fileNames.map((filename) => {
+    const slug = filename.replace(".md", "");
+    const fullPath = path.join(contentDirectory, filename);
+    const content = fs.readFileSync(fullPath, "utf8");
+    const { data }  = matter(content);
+
+    return {
+      ...data,
+      slug,
+      content,
+      date: data.date,
+      type: data.type,
+    };
+  })
+  .filter((post) => post.type === "post")
+  .sort((postA, postB): any => {
+    return +new Date(postB.date) - +new Date(postA.date);
+  });
 };
