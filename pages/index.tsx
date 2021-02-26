@@ -1,6 +1,7 @@
 import { FC } from "react";
 import Link from "next/link";
 import { getSortedPosts } from "../lib/helpers";
+import Layout from "../components/Layout";
 import { GetStaticProps } from "next";
 import { PostData } from "../types";
 
@@ -10,7 +11,7 @@ type HomeProps = {
 
 const Home: FC<HomeProps> = ({ posts }) => {
   return (
-    <>
+    <Layout>
       {posts.map(({ title, slug }) => (
         <h3>
           <Link href={`/${slug}`}>
@@ -18,7 +19,7 @@ const Home: FC<HomeProps> = ({ posts }) => {
           </Link>
         </h3>
       ))}
-    </>
+    </Layout>
   );
 };
 

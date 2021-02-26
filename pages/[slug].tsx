@@ -1,10 +1,11 @@
 import { FC } from "react";
-import Head from "next/head";
+import { GetStaticPaths, GetStaticProps } from "next";
 import ReactMarkdown from "react-markdown";
 import matter from "gray-matter";
+import Head from "next/head";
 import { getAllSlugs, getPostdata } from "../lib/helpers";
+import Layout from "../components/Layout";
 import { PostData } from "../types";
-import { GetStaticPaths, GetStaticProps } from "next";
 import styles from "./page.module.css";
 
 const Page: FC<PostData> = ({ title, date, content }) => {
@@ -14,15 +15,16 @@ const Page: FC<PostData> = ({ title, date, content }) => {
   return (
     <>
       <Head>
-        <meta charSet="utf-8" />
         <title>{title}</title>
       </Head>
-      <header className={styles.header}>
-        <h1>{title}</h1>
-        <p>{formattedDate}</p>
-      </header>
-      <hr />
-      <ReactMarkdown>{content}</ReactMarkdown>
+      <Layout>
+        <header className={styles.header}>
+          <h1>{title}</h1>
+          <p>{formattedDate}</p>
+        </header>
+        <hr />
+        <ReactMarkdown>{content}</ReactMarkdown>
+      </Layout>
     </>
   );
 };
