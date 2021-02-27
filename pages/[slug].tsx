@@ -17,14 +17,13 @@ const Page: FC<PostData> = ({ title, date, content }) => {
       <Head>
         <title>{title}</title>
       </Head>
-      <Layout>
-        <header className={styles.header}>
-          <h1>{title}</h1>
-          <p>{formattedDate}</p>
-        </header>
-        <hr />
-        <ReactMarkdown>{content}</ReactMarkdown>
-      </Layout>
+
+      <header className={styles.header}>
+        <h1>{title}</h1>
+        <p>{formattedDate}</p>
+      </header>
+      <hr />
+      <ReactMarkdown>{content}</ReactMarkdown>
     </>
   );
 };

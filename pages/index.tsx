@@ -11,15 +11,15 @@ type HomeProps = {
 
 const Home: FC<HomeProps> = ({ posts }) => {
   return (
-    <Layout>
+    <>
       {posts.map(({ title, slug }) => (
-        <h3>
+        <h3 key={slug}>
           <Link href={`/${slug}`}>
             <a>{title}</a>
           </Link>
         </h3>
       ))}
-    </Layout>
+    </>
   );
 };
 

@@ -1,10 +1,16 @@
-import { FC } from "react";
+import { FC, useEffect } from "react";
 import Head from "next/head";
 import Header from "../components/Header";
 import Sidebar from "../components/Sidebar";
 import Config from "../constants/config";
 
 const Layout: FC = ({ children }) => {
+  useEffect(() => {
+    const mainScript = document.createElement("script");
+    mainScript.src = "/assets/js/main.js";
+    document.getElementsByTagName("head")[0].appendChild(mainScript);
+  }, []);
+
   return (
     <>
       <Head>
@@ -23,11 +29,11 @@ const Layout: FC = ({ children }) => {
         </div>
         <Sidebar />
       </div>
+
       <script src="/assets/js/jquery.min.js"></script>
       <script src="/assets/js/browser.min.js"></script>
       <script src="/assets/js/breakpoints.min.js"></script>
       <script src="/assets/js/util.js"></script>
-      <script src="/assets/js/main.js"></script>
     </>
   );
 };
