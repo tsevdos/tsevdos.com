@@ -1,9 +1,10 @@
-import { FC } from "react";
+import { FC, Fragment } from "react";
 import Link from "next/link";
-import { getSortedPosts } from "../lib/helpers";
-import Layout from "../components/Layout";
 import { GetStaticProps } from "next";
+import ReactMarkdown from "react-markdown";
+import { getSortedPosts } from "../lib/helpers";
 import { PostData } from "../types";
+import styles from "./page.module.css";
 
 type HomeProps = {
   posts: PostData[];
@@ -12,12 +13,21 @@ type HomeProps = {
 const Home: FC<HomeProps> = ({ posts }) => {
   return (
     <>
-      {posts.map(({ title, slug }) => (
-        <h3 key={slug}>
-          <Link href={`/${slug}`}>
-            <a>{title}</a>
-          </Link>
-        </h3>
+      {posts.map(({ slug, title, date, content }) => (
+        <Fragment key={slug}>
+          <article>
+            <header className={styles.header}>
+              <h2>
+                <Link href={`/${slug}`}>
+                  <a>{title}</a>
+                </Link>
+              </h2>
+              <p>{new Date(date).toLocaleDateString("el-GR")}</p>
+            </header>
+            <ReactMarkdown>{content}</ReactMarkdown>
+          </article>
+          <hr className="major" />
+        </Fragment>
       ))}
     </>
   );

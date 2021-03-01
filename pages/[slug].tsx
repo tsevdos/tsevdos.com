@@ -4,13 +4,11 @@ import ReactMarkdown from "react-markdown";
 import matter from "gray-matter";
 import Head from "next/head";
 import { getAllSlugs, getPostdata } from "../lib/helpers";
-import Layout from "../components/Layout";
 import { PostData } from "../types";
 import styles from "./page.module.css";
 
 const Page: FC<PostData> = ({ title, date, content }) => {
-  const options = { month: "long", day: "numeric", year: "numeric" };
-  const formattedDate = new Date(date).toLocaleDateString("el-GR", options);
+  const formattedDate = new Date(date).toLocaleDateString("el-GR");
 
   return (
     <>

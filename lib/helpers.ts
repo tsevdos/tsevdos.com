@@ -27,8 +27,8 @@ export const getSortedPosts = () => {
   return fileNames.map((filename) => {
     const slug = filename.replace(".md", "");
     const fullPath = path.join(contentDirectory, filename);
-    const content = fs.readFileSync(fullPath, "utf8");
-    const { data }  = matter(content);
+    const file = fs.readFileSync(fullPath, "utf8");
+    const { data, content }  = matter(file);
 
     return {
       ...data,
