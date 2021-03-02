@@ -1,9 +1,7 @@
 ---
-id: 4
 title: Νέα προηγούμενων εβδομάδων
 date: "2007-10-14"
-author: John Tsevdos
-layout: post
+type: "post"
 guid: http://www.tsevdos.com/2007/10/13/previous-weeks-news/
 permalink: /2007/10/13/previous-weeks-news/
 categories:
@@ -27,7 +25,6 @@ tags:
   - ruby
   - seminars
   - web
-type: "post"
 ---
 
 Παρακάτω μπορείτε να διαβάσετε πάρα πολύ περιληπτικά (στην κυριολεξία) τα νέα των προηγούμενων εβδομάδων!

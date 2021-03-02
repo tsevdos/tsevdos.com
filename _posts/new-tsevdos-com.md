@@ -1,9 +1,7 @@
 ---
-id: 3
 title: "Νέο Tsevdos.com"
 date: "2007-10-13"
-author: John Tsevdos
-layout: post
+type: "post"
 guid: http://www.tsevdos.com/2007/10/13/new-tsevdos-com/
 permalink: /2007/10/13/new-tsevdos-com/
 categories:
@@ -17,7 +15,6 @@ tags:
   - site
   - tsevdos.com
   - wordpress
-type: "post"
 ---
 
 Το [site](http://www.tsevdos.com/ "Tsevdos.com") μετά από μία νεκρή περίοδο περίπου 2 εβδομάδων είναι και πάλι on-line! Οι νόμοι του [Murphy](http://www.murphys-laws.com/ "Murphy's laws") επαληθεύτηκαν, και μάλιστα πανηγυρικά, μιας και μετά από το upgrate του [WordPress](http://wordpress.org/ "Wordpress.com") στην version 2.3, η [mySQL database](http://www.mysql.com/ "mySQL site") απλά διέλυσε όλους του ελληνικούς χαρακτήρες που περιείχε (δεν ήταν με λίγα λόγια πρόβλημα στο [charset](http://en.wikipedia.org/wiki/Character_encoding "What is charset")). Μετά την πρώτη ήττα λοιπόν, αποφασίζω να χρησιμοποιήσω το πρώτο backup που είχα πάρει κατευθείαν από το [phpMyAdmin](http://www.phpmyadmin.net/ "phpMyAdmin site"). Ανοίγοντας το, έρχεται και τη δεύτερη ήττα, μιας και ανακαλύπτω πως και πάλι όλοι οι ελληνικοί χαρακτήρες είναι corrupted και το backup στην ουσία άχρηστο! Όπως καταλαβαίνεται με είχε ήδη λούσει κρύος ιδρώτας και για το δεύτερο backup το οποίο το έκανα κατευθείαν μέσω του administration panel [WordPress](http://wordpress.org/ "Wordpress.com"), και που όπως σωστά μαντέψατε, και αυτό το backup ήταν άχρηστο!
