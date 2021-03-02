@@ -2,7 +2,7 @@ import { FC, Fragment } from "react";
 import Link from "next/link";
 import { GetStaticProps } from "next";
 import ReactMarkdown from "react-markdown";
-import { getSortedPosts } from "../lib/helpers";
+import { getSortedPosts, getPages, getCategories } from "../lib/helpers";
 import { PostData } from "../types";
 import styles from "./page.module.css";
 
@@ -35,10 +35,14 @@ const Home: FC<HomeProps> = ({ posts }) => {
 
 export const getStaticProps: GetStaticProps = async () => {
   const posts = getSortedPosts();
+  const pages = getPages();
+  const categories = getCategories();
 
   return {
     props: {
       posts,
+      pages,
+      categories,
     },
   };
 };

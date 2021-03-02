@@ -1,7 +1,13 @@
 import { FC } from "react";
 import Link from "next/link";
+import { PostData } from "../types";
 
-const Sidebar: FC = () => {
+export type SidebarProps = {
+  pages: PostData[];
+  categories: string[];
+};
+
+const Sidebar: FC<SidebarProps> = ({ pages, categories }) => {
   return (
     <div id="sidebar" className="inactive">
       <div className="inner">
@@ -21,21 +27,14 @@ const Sidebar: FC = () => {
                 <a>Home</a>
               </Link>
             </li>
-            <li>
-              <Link href="/about">
-                <a>About</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/contact">
-                <a>Contact</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/whitepress-theme">
-                <a>Whitepress theme</a>
-              </Link>
-            </li>
+
+            {pages.map(({ title, slug }) => (
+              <li key={slug}>
+                <Link href={`/${slug}`}>
+                  <a>{title}</a>
+                </Link>
+              </li>
+            ))}
           </ul>
         </nav>
 
@@ -44,16 +43,14 @@ const Sidebar: FC = () => {
             <h2>Categories</h2>
           </header>
           <ul>
-            <li>
-              <Link href="/">
-                <a>Cat 1</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/about">
-                <a>Cat 2</a>
-              </Link>
-            </li>
+            {categories.map((category) => (
+              <li key={category}>
+                {category}
+                {/* <Link href="/test">
+                  <a>{category}</a>
+                </Link> */}
+              </li>
+            ))}
           </ul>
         </nav>
 

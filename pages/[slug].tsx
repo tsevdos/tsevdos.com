@@ -3,7 +3,12 @@ import { GetStaticPaths, GetStaticProps } from "next";
 import ReactMarkdown from "react-markdown";
 import matter from "gray-matter";
 import Head from "next/head";
-import { getAllSlugs, getPostdata } from "../lib/helpers";
+import {
+  getAllSlugs,
+  getCategories,
+  getPages,
+  getPostdata,
+} from "../lib/helpers";
 import { PostData } from "../types";
 import styles from "./page.module.css";
 
@@ -35,11 +40,15 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const postContent = await getPostdata(params?.slug as string);
   const { data, content } = matter(postContent);
+  const pages = getPages();
+  const categories = getCategories();
 
   return {
     props: {
       ...data,
       content,
+      pages,
+      categories,
     },
   };
 };

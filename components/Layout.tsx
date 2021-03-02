@@ -3,8 +3,14 @@ import Head from "next/head";
 import Header from "../components/Header";
 import Sidebar from "../components/Sidebar";
 import Config from "../constants/config";
+import { PostData } from "../types";
 
-const Layout: FC = ({ children }) => {
+type LayoutProps = {
+  pages: PostData[];
+  categories: string[];
+};
+
+const Layout: FC<LayoutProps> = ({ pages, categories, children }) => {
   return (
     <>
       <Head>
@@ -21,7 +27,7 @@ const Layout: FC = ({ children }) => {
             <section>{children}</section>
           </div>
         </div>
-        <Sidebar />
+        <Sidebar pages={pages} categories={categories} />
       </div>
 
       <script src="/assets/js/jquery.min.js"></script>
