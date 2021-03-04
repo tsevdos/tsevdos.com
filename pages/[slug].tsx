@@ -7,7 +7,7 @@ import {
   getAllSlugs,
   getCategories,
   getPages,
-  getPostdata,
+  getDataFromSlug,
 } from "../lib/helpers";
 import { PostData } from "../types";
 import styles from "./page.module.css";
@@ -38,7 +38,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const postContent = await getPostdata(params?.slug as string);
+  const postContent = await getDataFromSlug(params?.slug as string);
   const { data, content } = matter(postContent);
   const pages = getPages();
   const categories = getCategories();
