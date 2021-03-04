@@ -1,4 +1,4 @@
-import redirects from "./redirects";
+const redirects = require("./redirects");
 
 const withMDX = require("@next/mdx")({
   extension: /\.mdx?$/,
