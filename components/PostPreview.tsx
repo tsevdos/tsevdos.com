@@ -3,7 +3,7 @@ import Link from "next/link";
 import { PostData } from "../types";
 import styles from "../pages/page.module.css";
 
-const PostPreview: FC<PostData> = ({ slug, title, date, categories, tags }) => (
+const PostPreview: FC<PostData> = ({ slug, title, date, categories }) => (
   <Fragment>
     <article className={styles["post-entry"]}>
       <div>
