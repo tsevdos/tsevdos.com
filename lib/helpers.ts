@@ -3,7 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 import { PostData } from "../types";
 
-const POSTS_PER_PAGE = 10;
+export const POSTS_PER_PAGE = 3;
 const contentDirectory = path.join(process.cwd(), "_posts");
 const fileNames = fs.readdirSync(contentDirectory);
 
@@ -19,6 +19,7 @@ const filenameToData = (filename: string) => {
 const byPostType = ({type}: PostData) => type === "post";
 const byPageType = ({type}: PostData) => type === "page";
 const byDate = (postA: PostData, postB: PostData) => +new Date(postB.date) - +new Date(postA.date)
+const range = (start:number, stop:number, step:number) => Array.from({ length: (stop - start) / step + 1}, (_, i) => start + (i * step));
 
 // Exported fns
 export const getAllSlugs = () => fileNames.map((filename) => ({
@@ -27,6 +28,18 @@ export const getAllSlugs = () => fileNames.map((filename) => ({
   },
 }));
 
+export const getAllArchivePageNumbers = () => {
+  const totalPosts = fileNames.map(filenameToData).filter(byPostType).length;
+  const totalPages = Math.floor(totalPosts / POSTS_PER_PAGE) + 1;
+  const pagesArr = range(1, totalPages, 1).map((v) => v.toString());
+
+  return pagesArr.map((v) => ({
+    params: {
+      num: v,
+    },
+  }));
+}
+
 export const getDataFromSlug = async (slug: string): Promise<string> => {
   const fullPath = path.join(contentDirectory, `${slug}.md`);
   const content = fs.readFileSync(fullPath, "utf8");
@@ -34,10 +47,12 @@ export const getDataFromSlug = async (slug: string): Promise<string> => {
   return content;
 };
 
-export const getSortedPosts = (page: number = 1) => fileNames.map(filenameToData)
+export const getAllSortedPosts = () => fileNames.map(filenameToData)
   .filter(byPostType)
   .sort(byDate)
-  .slice(page - 1, POSTS_PER_PAGE);
+
+export const getSortedPostsPage = ({ posts, page } : { posts: PostData[]; page: number }) =>
+  posts.slice((page - 1) * POSTS_PER_PAGE, page * POSTS_PER_PAGE);
 
 export const getCategories = () => {
   return fileNames.map(filenameToData)

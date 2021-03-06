@@ -1,46 +1,37 @@
-import { FC, Fragment } from "react";
-import Link from "next/link";
+import { FC } from "react";
 import { GetStaticProps } from "next";
-import ReactMarkdown from "react-markdown";
-import { getSortedPosts, getPages, getCategories } from "../lib/helpers";
+import PostPreview from "../components/PostPreview";
+import Pagination from "../components/Pagination";
+import {
+  getAllSortedPosts,
+  getSortedPostsPage,
+  getPages,
+  getCategories,
+} from "../lib/helpers";
 import { PostData } from "../types";
-import styles from "./page.module.css";
 
 type HomeProps = {
   posts: PostData[];
 };
 
-const Home: FC<HomeProps> = ({ posts }) => {
-  return (
-    <>
-      {posts.map(({ slug, title, date, content }) => (
-        <Fragment key={slug}>
-          <article>
-            <header className={styles.header}>
-              <h2>
-                <Link href={`/${slug}`}>
-                  <a>{title}</a>
-                </Link>
-              </h2>
-              <p>{new Date(date).toLocaleDateString("el-GR")}</p>
-            </header>
-            <ReactMarkdown>{content}</ReactMarkdown>
-          </article>
-          <hr className="major" />
-        </Fragment>
-      ))}
-    </>
-  );
-};
+const Home: FC<HomeProps> = ({ posts }) => (
+  <>
+    {posts.map((post) => (
+      <PostPreview key={post.slug} {...post} />
+    ))}
+    <Pagination currentPage={1} isFirstPage={true} isLastPage={false} />
+  </>
+);
 
 export const getStaticProps: GetStaticProps = async () => {
-  const posts = getSortedPosts();
+  const allPosts = getAllSortedPosts();
+  const indexPosts = getSortedPostsPage({ posts: allPosts, page: 1 });
   const pages = getPages();
   const categories = getCategories();
 
   return {
     props: {
-      posts,
+      posts: indexPosts,
       pages,
       categories,
     },
