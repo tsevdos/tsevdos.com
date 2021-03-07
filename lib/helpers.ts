@@ -1,8 +1,8 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import { PostData } from "../types";
-import { POSTS_PER_PAGE } from "../constants/config"
+import { PostData } from "./types";
+import { POSTS_PER_PAGE } from "./config"
 
 const contentDirectory = path.join(process.cwd(), "_posts");
 const fileNames = fs.readdirSync(contentDirectory);

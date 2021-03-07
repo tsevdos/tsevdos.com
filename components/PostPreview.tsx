@@ -1,6 +1,6 @@
 import { FC, Fragment } from "react";
 import Link from "next/link";
-import { PostData } from "../types";
+import { PostData } from "../lib/types";
 import styles from "../pages/page.module.css";
 
 const PostPreview: FC<PostData> = ({ slug, title, date, categories }) => (

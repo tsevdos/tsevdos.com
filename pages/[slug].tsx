@@ -9,7 +9,7 @@ import {
   getPages,
   getDataFromSlug,
 } from "../lib/helpers";
-import { PostData } from "../types";
+import { PostData } from "../lib/types";
 import styles from "./page.module.css";
 
 const Page: FC<PostData> = ({ title, date, content }) => {

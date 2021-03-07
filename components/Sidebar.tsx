@@ -1,6 +1,6 @@
 import { FC } from "react";
 import Link from "next/link";
-import { PostData } from "../types";
+import { PostData } from "../lib/types";
 
 export type SidebarProps = {
   pages: PostData[];
@@ -15,6 +15,37 @@ const Sidebar: FC<SidebarProps> = ({ pages, categories }) => (
             <input type="text" name="query" id="query" placeholder="Search" />
           </form>
         </section> */}
+
+      <section>
+        <header className="major">
+          <h2>Get in touch</h2>
+        </header>
+        <p>
+          Hi, I’m a software engineer from Athens 🇬🇷 and huge fan of{" "}
+          <a href="https://jamstack.org/" target="_blank">
+            Jamstack
+          </a>
+          . I'm working full-time at{" "}
+          <a href="https://www.epignosishq.com" target="_blank">
+            Epignosis
+          </a>{" "}
+          and I'm sharing my JavaScript and React knowledge at{" "}
+          <a
+            href="https://www.codehub.gr/codelearn/our-instructors/"
+            target="_blank"
+          >
+            Code.Hub
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://socialhackersacademy.org/meet-our-team/"
+            target="_blank"
+          >
+            Social Hackers Academy
+          </a>
+          !
+        </p>
+      </section>
 
       <nav id="menu">
         <header className="major">
@@ -44,7 +75,7 @@ const Sidebar: FC<SidebarProps> = ({ pages, categories }) => (
         <ul>
           {categories.map((category) => (
             <li key={category}>
-              <Link href={`/category/${category}`}>
+              <Link href={`/category/${encodeURIComponent(category)}`}>
                 <a>{category}</a>
               </Link>
             </li>
@@ -52,33 +83,47 @@ const Sidebar: FC<SidebarProps> = ({ pages, categories }) => (
         </ul>
       </nav>
 
-      <section>
+      <nav id="menu">
         <header className="major">
-          <h2>Get in touch</h2>
+          <h2>Links</h2>
         </header>
-        <p>
-          Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit
-          lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam
-          facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
-        </p>
-        <ul className="contact">
-          <li className="icon solid fa-envelope">
-            <a href="#">information@untitled.tld</a>
+        <ul>
+          <li>
+            <a href="https://tsevdos.me/" target="_blank">
+              Tsevdos.me
+            </a>
           </li>
-          <li className="icon solid fa-phone">(000) 000-0000</li>
-          <li className="icon solid fa-home">
-            1234 Somewhere Road #8254
-            <br />
-            Nashville, TN 00000-0000
+          <li>
+            <a href="http://phrappe.com/" target="_blank">
+              Phrappe.com
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/tsevdosjohn" target="_blank">
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/tsevdos" target="_blank">
+              GitHub
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/tsevdos" target="_blank">
+              Twitter
+            </a>
           </li>
         </ul>
-      </section>
+      </nav>
 
       <footer id="footer">
         <p className="copyright">
-          © Untitled. All rights reserved. Demo Images:{" "}
-          <a href="https://unsplash.com">Unsplash</a>. Design:{" "}
-          <a href="https://html5up.net">HTML5 UP</a>.
+          © John Tsevdos. All rights reserved. <br />
+          Design:{" "}
+          <a target="_blank" href="https://html5up.net">
+            HTML5 UP
+          </a>
+          .
         </p>
       </footer>
     </div>

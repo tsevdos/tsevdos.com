@@ -8,7 +8,7 @@ import {
   getPages,
   getCategories,
 } from "../lib/helpers";
-import { PostData } from "../types";
+import { PostData } from "../lib/types";
 
 type HomeProps = {
   posts: PostData[];

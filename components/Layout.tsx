@@ -2,8 +2,8 @@ import { FC } from "react";
 import Head from "next/head";
 import Header from "../components/Header";
 import Sidebar from "../components/Sidebar";
-import Config from "../constants/config";
-import { PostData } from "../types";
+import Config from "../lib/config";
+import { PostData } from "../lib/types";
 
 type LayoutProps = {
   pages: PostData[];

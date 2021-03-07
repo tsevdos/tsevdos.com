@@ -1,6 +1,6 @@
 import { FC } from "react";
 import Link from "next/link";
-import Config from "../constants/config";
+import Config from "../lib/config";
 
 const Header: FC = () => (
   <header id="header">

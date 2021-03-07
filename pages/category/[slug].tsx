@@ -7,7 +7,7 @@ import {
   getCategories,
   getPages,
 } from "../../lib/helpers";
-import { PostData } from "../../types";
+import { PostData } from "../../lib/types";
 
 type CategoryPageProps = {
   posts: PostData[];
