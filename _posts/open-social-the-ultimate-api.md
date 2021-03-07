@@ -1,9 +1,7 @@
 ---
-title: "Open Social : Το απόλυτο API"
+title: "Open Social: Το απόλυτο API"
 date: "2007-11-04"
 type: "post"
-guid: http://www.tsevdos.com/2007/11/04/open-social-the-ultimate-api/
-permalink: /2007/11/04/open-social-the-ultimate-api/
 categories:
   - news
 tags:

@@ -2,8 +2,6 @@
 title: "Τα πάντα είναι έτοιμα!"
 date: "2007-10-16"
 layout: "post"
-guid: http://www.tsevdos.com/2007/10/16/everything-is-ready/
-permalink: /2007/10/16/everything-is-ready/
 categories:
   - tsevdos.com
 tags:

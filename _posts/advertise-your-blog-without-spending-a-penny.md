@@ -2,8 +2,6 @@
 title: "Διαφημίστε το blog σας χωρίς να ξοδέψετε ούτε ένα euro!"
 date: "2007-10-15"
 type: "post"
-guid: http://www.tsevdos.com/2007/10/15/advertise-your-blog-without-spending-a-penny/
-permalink: /2007/10/15/advertise-your-blog-without-spending-a-penny/
 categories:
   - articles
   - blogging tips

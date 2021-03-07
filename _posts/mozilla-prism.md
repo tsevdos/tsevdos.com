@@ -2,8 +2,6 @@
 title: "Mozilla Prism"
 date: "2007-10-28"
 type: "post"
-guid: http://www.tsevdos.com/2007/10/28/mozilla-prism/
-permalink: /2007/10/28/mozilla-prism/
 categories:
   - news
 tags:

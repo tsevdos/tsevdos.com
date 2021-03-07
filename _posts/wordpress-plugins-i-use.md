@@ -2,8 +2,6 @@
 title: "WordPress plug-ins που χρησιμοποιώ"
 date: "2007-10-26"
 type: "post"
-guid: http://www.tsevdos.com/2007/10/26/wordpress-plugins-i-use/
-permalink: /2007/10/26/wordpress-plugins-i-use/
 categories:
   - plug-ins
   - wordpress

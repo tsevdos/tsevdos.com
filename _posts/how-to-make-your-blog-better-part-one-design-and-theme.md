@@ -1,9 +1,7 @@
 ---
 title: "Πως να κάνετε το blog σας να ξεχωρίσει από την μάζα. (Μέρος πρώτο - Design και Theme)"
 date: "2007-10-17"
-type: post
-guid: http://www.tsevdos.com/2007/10/17/how-to-make-your-blog-better-part-one-design-and-theme/
-permalink: /2007/10/17/how-to-make-your-blog-better-part-one-design-and-theme/
+type: "post"
 categories:
   - articles
   - blogging tips

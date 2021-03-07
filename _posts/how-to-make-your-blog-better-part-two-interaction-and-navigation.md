@@ -1,9 +1,7 @@
 ---
-title: "Πως να κάνετε το blog σας να ξεχωρίσει από την μάζα. (Μέρος δεύτερο &#8211; Interaction και Navigation)"
+title: "Πως να κάνετε το blog σας να ξεχωρίσει από την μάζα. (Μέρος δεύτερο - Interaction και Navigation)"
 date: "2007-10-30"
 type: "post"
-guid: http://www.tsevdos.com/2007/10/30/how-to-make-your-blog-better-part-two-interaction-and-navigation/
-permalink: /2007/10/30/how-to-make-your-blog-better-part-two-interaction-and-navigation/
 categories:
   - articles
   - blogging tips

@@ -2,8 +2,6 @@
 title: "Ελληνικά και ξένα Podcast που ακούω"
 date: "2007-10-19"
 type: "post"
-guid: http://www.tsevdos.com/2007/10/19/greek-and-english-podcasts-i-listen-to/
-permalink: /2007/10/19/greek-and-english-podcasts-i-listen-to/
 categories:
   - opinions
 tags:

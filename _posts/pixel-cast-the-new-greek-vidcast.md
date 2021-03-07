@@ -2,8 +2,6 @@
 title: "Pixel Cast, το νέο ελληνικό vidcast!"
 date: "2007-11-09"
 type: "post"
-guid: http://www.tsevdos.com/2007/11/09/pixel-cast-the-new-greek-vidcast/
-permalink: /2007/11/09/pixel-cast-the-new-greek-vidcast/
 categories:
   - news
 tags:

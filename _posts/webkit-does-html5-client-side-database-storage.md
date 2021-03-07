@@ -2,8 +2,6 @@
 title: "Το WebKit είναι η πρώτη rendering engine που υποστιρίζει client-side database αποθήκευση!"
 date: "2007-10-22"
 type: "post"
-guid: http://www.tsevdos.com/2007/10/22/webkit-does-html5-client-side-database-storage/
-permalink: /2007/10/22/webkit-does-html5-client-side-database-storage/
 categories:
   - news
 tags:

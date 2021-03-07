@@ -2,8 +2,6 @@
 title: "Νέο Tsevdos.com"
 date: "2007-10-13"
 type: "post"
-guid: http://www.tsevdos.com/2007/10/13/new-tsevdos-com/
-permalink: /2007/10/13/new-tsevdos-com/
 categories:
   - tsevdos.com
 tags:
