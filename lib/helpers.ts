@@ -2,8 +2,8 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { PostData } from "../types";
+import { POSTS_PER_PAGE } from "../constants/config"
 
-export const POSTS_PER_PAGE = 3;
 const contentDirectory = path.join(process.cwd(), "_posts");
 const fileNames = fs.readdirSync(contentDirectory);
 
@@ -66,6 +66,16 @@ export const getCategories = () => {
     return allCategories;
   }, [] as string[]);
 };
+
+export const getAllCategorySlugs = () => {
+  const categories = getCategories();
+
+  return categories.map((category) => ({
+    params: {
+      slug: category,
+    },
+  }));
+}
 
 export const getPages = () => fileNames.map(filenameToData)
   .filter(byPageType)

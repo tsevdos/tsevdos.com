@@ -44,10 +44,9 @@ const Sidebar: FC<SidebarProps> = ({ pages, categories }) => (
         <ul>
           {categories.map((category) => (
             <li key={category}>
-              {category}
-              {/* <Link href="/test">
-                  <a>{category}</a>
-                </Link> */}
+              <Link href={`/category/${category}`}>
+                <a>{category}</a>
+              </Link>
             </li>
           ))}
         </ul>

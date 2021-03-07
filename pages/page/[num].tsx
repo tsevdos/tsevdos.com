@@ -8,8 +8,8 @@ import {
   getPages,
   getCategories,
   getAllArchivePageNumbers,
-  POSTS_PER_PAGE,
 } from "../../lib/helpers";
+import { POSTS_PER_PAGE } from "../../constants/config";
 import { PostData } from "../../types";
 
 type ArchivePageProps = {

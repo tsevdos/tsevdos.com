@@ -4,6 +4,6 @@ export type PostData = {
   type: string;
   slug: string;
   content: string;
-  categories?: string[];
-  tags?: string[];
+  categories: string[];
+  tags: string[];
 };
