@@ -21,10 +21,12 @@ const Pagination: FC<PaginationProps> = ({
     ) : (
       <span />
     )}
-    {!isLastPage && (
+    {!isLastPage ? (
       <Link href={`/page/${currentPage + 1}`}>
         <a className="button primary next">Next page</a>
       </Link>
+    ) : (
+      <span />
     )}
   </nav>
 );
