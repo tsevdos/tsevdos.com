@@ -8,8 +8,8 @@ import {
   getPages,
   getCategories,
   getAllArchivePageNumbers,
+  getPagination,
 } from "../../lib/helpers";
-import { POSTS_PER_PAGE } from "../../lib/config";
 import { PostData } from "../../lib/types";
 
 type ArchivePageProps = {
@@ -35,17 +35,14 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const currentPage = parseInt(params?.num as string);
   const allPosts = getAllSortedPosts();
-  const pagePosts = getSortedPostsPage({ posts: allPosts, page: currentPage });
-  const isFirstPage = currentPage === 1;
-  const isLastPage =
-    Math.floor(allPosts.length / POSTS_PER_PAGE) + 1 === currentPage;
+  const pagePosts = getSortedPostsPage(currentPage);
   const pages = getPages();
   const categories = getCategories();
 
   return {
     props: {
       posts: pagePosts,
-      pagination: { currentPage, isFirstPage, isLastPage },
+      pagination: getPagination(currentPage, allPosts.length),
       pages,
       categories,
     },

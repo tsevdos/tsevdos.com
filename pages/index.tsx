@@ -2,12 +2,7 @@ import { FC } from "react";
 import { GetStaticProps } from "next";
 import PostPreview from "../components/PostPreview";
 import Pagination from "../components/Pagination";
-import {
-  getAllSortedPosts,
-  getSortedPostsPage,
-  getPages,
-  getCategories,
-} from "../lib/helpers";
+import { getSortedPostsPage, getPages, getCategories } from "../lib/helpers";
 import { PostData } from "../lib/types";
 
 type HomeProps = {
@@ -24,8 +19,7 @@ const Home: FC<HomeProps> = ({ posts }) => (
 );
 
 export const getStaticProps: GetStaticProps = async () => {
-  const allPosts = getAllSortedPosts();
-  const indexPosts = getSortedPostsPage({ posts: allPosts, page: 1 });
+  const indexPosts = getSortedPostsPage(1);
   const pages = getPages();
   const categories = getCategories();
 

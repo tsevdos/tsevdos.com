@@ -1,5 +1,5 @@
 ---
-title: "Η HTML 5 έρχεται&#8230;"
+title: "Η HTML 5 έρχεται..."
 date: "2008-02-06"
 type: "post"
 categories:

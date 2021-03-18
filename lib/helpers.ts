@@ -21,6 +21,12 @@ const byPageType = ({type}: PostData) => type === "page";
 const byDate = (postA: PostData, postB: PostData) => +new Date(postB.date) - +new Date(postA.date)
 const range = (start:number, stop:number, step:number) => Array.from({ length: (stop - start) / step + 1}, (_, i) => start + (i * step));
 
+const getPagesArr = (posts: number ) => {
+  const totalCategoryPages = Math.floor(posts / POSTS_PER_PAGE) + 1;
+
+  return range(1, totalCategoryPages, 1).map((v) => v.toString());
+}
+
 // Exported fns
 export const getAllSlugs = () => fileNames.map((filename) => ({
   params: {
@@ -51,8 +57,15 @@ export const getAllSortedPosts = () => fileNames.map(filenameToData)
   .filter(byPostType)
   .sort(byDate)
 
-export const getSortedPostsPage = ({ posts, page } : { posts: PostData[]; page: number }) =>
-  posts.slice((page - 1) * POSTS_PER_PAGE, page * POSTS_PER_PAGE);
+export const getSortedPostsPage = (page: number ) => getAllSortedPosts()
+  .slice((page - 1) * POSTS_PER_PAGE, page * POSTS_PER_PAGE);
+
+export const getSortedPostsCategory = (category: string) =>getAllSortedPosts()
+  .filter(({categories}) => categories.includes(category));
+
+export const getSortedPostsCategoryPage = ({ page, category } : { page: number; category: string; }) =>
+  getSortedPostsCategory(category)
+    .slice((page - 1) * POSTS_PER_PAGE, page * POSTS_PER_PAGE);
 
 export const getCategories = () => {
   return fileNames.map(filenameToData)
@@ -67,16 +80,37 @@ export const getCategories = () => {
   }, [] as string[]);
 };
 
-export const getAllCategorySlugs = () => {
+export const getAllArchivePageNumbersPerCategory = () => {
   const categories = getCategories();
+  const categoryPages = categories.map(
+    (category) => {
+     const totalCategoryPosts = fileNames.map(filenameToData)
+      .filter(byPostType)
+      .filter((post: PostData) => post.categories.includes(category)).length;
 
-  return categories.map((category) => ({
+      return {
+        category,
+        pagesArr: getPagesArr(totalCategoryPosts)
+      };
+    });
+
+  const paths = categoryPages.map((obj) => obj.pagesArr.map((page) => ({
     params: {
-      slug: category,
-    },
-  }));
+      category: obj.category,
+      pageNum: page
+    }
+  })));
+
+  return paths.flat();
 }
 
 export const getPages = () => fileNames.map(filenameToData)
   .filter(byPageType)
   .reduce((allPages, page) => [...allPages, page], [] as PostData[]);
+
+export const getPagination = (currentPage: number, totalPosts: number) => {
+  const isFirstPage = currentPage === 1;
+  const isLastPage = Math.floor(totalPosts / POSTS_PER_PAGE) + 1 === currentPage;
+
+  return { currentPage, isFirstPage, isLastPage };
+}

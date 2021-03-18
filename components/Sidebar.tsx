@@ -75,7 +75,7 @@ const Sidebar: FC<SidebarProps> = ({ pages, categories }) => (
         <ul>
           {categories.map((category) => (
             <li key={category}>
-              <Link href={`/category/${encodeURIComponent(category)}`}>
+              <Link href={`/category/${encodeURIComponent(category)}/page/1`}>
                 <a>{category}</a>
               </Link>
             </li>

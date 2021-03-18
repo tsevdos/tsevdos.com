@@ -6,6 +6,12 @@ import styles from "../pages/page.module.css";
 const PostPreview: FC<PostData> = ({ slug, title, date, categories }) => (
   <Fragment>
     <article className={styles["post-entry"]}>
+      <h2>
+        <Link href={`/${slug}`}>
+          <a>{title}</a>
+        </Link>
+      </h2>
+
       <div>
         <div className={styles["categories-container"]}>
           <h4>Categories: </h4>
@@ -15,15 +21,8 @@ const PostPreview: FC<PostData> = ({ slug, title, date, categories }) => (
             ))}
           </ul>
         </div>
-
         <p>{new Date(date).toLocaleDateString("el-GR")}</p>
       </div>
-
-      <h2>
-        <Link href={`/${slug}`}>
-          <a>{title}</a>
-        </Link>
-      </h2>
     </article>
     <hr />
   </Fragment>
