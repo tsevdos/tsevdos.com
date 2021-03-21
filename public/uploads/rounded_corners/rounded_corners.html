@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <title>Rounded corners με 1 γραφικό</title>
+	<script type="text/javascript" src="jquery-1.2.6.min.js"></script>
+	
+	<script type="text/javascript">
+	    //<![CDATA[
+	    $(document).ready(function(){
+			$('.jquery').prepend('<span class="tl"></span><span class="tr"></span>').append('<span class="bl"></span><span class="br"></span>');			
+		});
+	    //]]>
+	</script>
+	
+	<style type="text/css" media="screen">
+	    * {
+			margin: 0;
+			padding: 0;
+		}
+		
+		body {
+			padding: 20px;
+		}
+		
+		div.rounded {
+			margin-bottom: 10px;
+			padding: 10px;
+			background: #999;
+			position: relative;
+		}
+		
+		div.rounded span {
+			width: 10px;
+			height: 10px;
+			background-image: url(circle.gif);
+			background-repeat: no-repeat;
+			position: absolute;
+		}
+		
+		span.tl {
+			top: 0; left: 0;
+			background-position: top left;
+		}
+		
+		span.tr {
+			top: 0; right: 0;
+			background-position: top right;
+		}
+		
+		span.bl {
+			bottom: 0; left: 0;
+			background-position: bottom left;
+			
+		}
+		
+		span.br {
+			bottom: 0; right: 0;
+			background-position: bottom right;
+		}
+	</style>
+</head>
+<body>
+    <div class="rounded">
+		<span class="tl"></span>
+		<span class="tr"></span>
+	    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis ultricies justo non orci. Fusce lobortis placerat risus. Mauris fringilla enim sed tellus. Maecenas hendrerit adipiscing neque. Cras cursus laoreet elit. Sed gravida lectus at mauris. Aliquam luctus vehicula ipsum. Aliquam in sapien. Maecenas at dolor quis dui pellentesque euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque volutpat. Cras mollis metus id nibh. Mauris fermentum, quam quis placerat dictum, magna elit consequat nisi, non ornare tortor eros vitae risus. Quisque eleifend.</p>
+		<span class="bl"></span>
+		<span class="br"></span>
+	</div>
+	<div class="rounded jquery">
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis ultricies justo non orci. Fusce lobortis placerat risus. Mauris fringilla enim sed tellus. Maecenas hendrerit adipiscing neque. Cras cursus laoreet elit. Sed gravida lectus at mauris. Aliquam luctus vehicula ipsum. Aliquam in sapien. Maecenas at dolor quis dui pellentesque euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque volutpat. Cras mollis metus id nibh. Mauris fermentum, quam quis placerat dictum, magna elit consequat nisi, non ornare tortor eros vitae risus. Quisque eleifend.</p>
+	</div>
+</body>
+</html>
