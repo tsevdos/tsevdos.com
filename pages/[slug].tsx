@@ -10,6 +10,7 @@ import {
   getDataFromSlug,
 } from "../lib/helpers";
 import { PostData } from "../lib/types";
+import Config from "../lib/config";
 import styles from "./page.module.css";
 
 const Page: FC<PostData> = ({ title, date, content }) => {
@@ -18,7 +19,7 @@ const Page: FC<PostData> = ({ title, date, content }) => {
   return (
     <>
       <Head>
-        <title>{title}</title>
+        <title>{`${title} - ${Config.title}`}</title>
       </Head>
 
       <header className={styles.header}>

@@ -1,9 +1,8 @@
 import { FC } from "react";
 import { GetStaticPaths } from "next";
-import PostPreview from "../../../../../components/PostPreview";
-import Pagination, {
-  PaginationProps,
-} from "../../../../../components/Pagination";
+import Head from "next/head";
+import PostPreview from "../../../../components/PostPreview";
+import Pagination, { PaginationProps } from "../../../../components/Pagination";
 import {
   getSortedPostsCategoryPage,
   getAllArchivePageNumbersPerCategory,
@@ -11,8 +10,9 @@ import {
   getPages,
   getPagination,
   getSortedPostsCategory,
-} from "../../../../../lib/helpers";
-import { PostData } from "../../../../../lib/types";
+} from "../../../../lib/helpers";
+import Config from "../../../../lib/config";
+import { PostData } from "../../../../lib/types";
 
 type CategoryPageProps = {
   posts: PostData[];
@@ -26,6 +26,10 @@ const CategoryPage: FC<CategoryPageProps> = ({
   category,
 }) => (
   <>
+    <Head>
+      <title>{`${category} - ${Config.title}`}</title>
+    </Head>
+
     {posts.map((post) => (
       <PostPreview key={post.slug} {...post} />
     ))}
