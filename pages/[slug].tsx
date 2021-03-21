@@ -9,6 +9,7 @@ import {
   getPages,
   getDataFromSlug,
 } from "../lib/helpers";
+import ContactForm from "../components/ContactForm";
 import { PostData } from "../lib/types";
 import Config from "../lib/config";
 import styles from "./page.module.css";
@@ -28,6 +29,7 @@ const Page: FC<PostData> = ({ title, date, content }) => {
       </header>
       <hr />
       <ReactMarkdown>{content}</ReactMarkdown>
+      {title === "Contact" && <ContactForm />}
     </>
   );
 };
