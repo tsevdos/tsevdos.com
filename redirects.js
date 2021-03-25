@@ -174,4 +174,106 @@ module.exports = [
     destination: "/w3c-amaya-browser-and-editor",
     permanent: true,
   },
+  {
+    source: "/2008/02/22/gotapi-reference-site/",
+    destination: "/gotapi-reference-site",
+    permanent: true,
+  },
+  {
+    source: "/2008/02/25/ie8-beta-and-web-standards-project-suggestions/",
+    destination: "/ie8-beta-and-web-standards-project-suggestions",
+    permanent: true,
+  },
+  {
+    source: "/2008/02/27/make-your-blog-mobile-friendly-in-5-minutes/",
+    destination: "/make-your-blog-mobile-friendly-in-5-minutes",
+    permanent: true,
+  },
+  {
+    source: "/2008/03/04/microsoft-rethinks-version-targeting-in-ie8/",
+    destination: "/microsoft-rethinks-version-targeting-in-ie8",
+    permanent: true,
+  },
+  {
+    source:
+      "/2008/03/05/how-to-make-your-site-faster-the-ultimate-guide-to-site-optimization/",
+    destination:
+      "/how-to-make-your-site-faster-the-ultimate-guide-to-site-optimization",
+    permanent: true,
+  },
+  {
+    source: "/2008/03/06/ie8-beta-1-is-ready/",
+    destination: "/ie8-beta-1-is-ready",
+    permanent: true,
+  },
+  {
+    source: "/2008/03/07/mobile-friendly-version-of-tsevdos-com/",
+    destination: "/mobile-friendly-version-of-tsevdos-com",
+    permanent: true,
+  },
+  {
+    source: "/2008/03/13/tsevdos-com-and-web-art-cast-screencast/",
+    destination: "/tsevdos-com-and-web-art-cast-screencast",
+    permanent: true,
+  },
+  {
+    source: "/2008/03/31/greek-web-experts-i-read-and-trust/",
+    destination: "/greek-web-experts-i-read-and-trust",
+    permanent: true,
+  },
+  {
+    source: "/2008/04/19/tsevdoscom-and-wordpress-25/",
+    destination: "/tsevdoscom-and-wordpress-25",
+    permanent: true,
+  },
+  {
+    source: "/2008/04/24/ie-tester/",
+    destination: "/ie-tester",
+    permanent: true,
+  },
+  {
+    source: "/2008/05/08/four-greek-sites-that-will-make-your-life-easier/",
+    destination: "/four-greek-sites-that-will-make-your-life-easier",
+    permanent: true,
+  },
+  {
+    source: "/2008/05/14/new-theme/",
+    destination: "/new-theme",
+    permanent: true,
+  },
+  {
+    source: "/2008/05/15/free-photoshop-book-from-sitepoint/",
+    destination: "/free-photoshop-book-from-sitepoint",
+    permanent: true,
+  },
+  {
+    source: "/2008/05/27/styling-comments-tsevdos-com-way/",
+    destination: "/styling-comments-tsevdos-com-way",
+    permanent: true,
+  },
+  {
+    source: "/2008/06/06/paperplane-and-corporate-blogging-in-greece/",
+    destination: "/paperplane-and-corporate-blogging-in-greece",
+    permanent: true,
+  },
+  {
+    source: "/2008/06/10/whitepress-tsevdos-com-official-wordpress-theme/",
+    destination: "/whitepress-tsevdos-com-official-wordpress-theme",
+    permanent: true,
+  },
+  {
+    source: "/2008/06/12/web-accessibility-checklist/",
+    destination: "/web-accessibility-checklist",
+    permanent: true,
+  },
+  {
+    source: "/2008/06/17/search-engine-optimization-seo-for-bloggers/",
+    destination: "/search-engine-optimization-seo-for-bloggers",
+    permanent: true,
+  },
+  {
+    source: "/2008/06/23/css3gr/",
+    destination: "/css3gr",
+    permanent: true,
+  },
 ];
