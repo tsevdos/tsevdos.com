@@ -28,7 +28,7 @@ const Page: FC<PostData> = ({ title, date, content }) => {
         <p>{formattedDate}</p>
       </header>
       <hr />
-      <ReactMarkdown>{content}</ReactMarkdown>
+      <ReactMarkdown allowDangerousHtml>{content}</ReactMarkdown>
       {title === "Contact" && <ContactForm />}
     </>
   );

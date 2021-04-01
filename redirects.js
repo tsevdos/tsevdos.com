@@ -276,4 +276,104 @@ module.exports = [
     destination: "/css3gr",
     permanent: true,
   },
+  {
+    source: "/2008/06/23/lets-talk-about-whitepress-theme/",
+    destination: "/lets-talk-about-whitepress-theme",
+    permanent: true,
+  },
+  {
+    source: "/2008/07/01/accessibility-test-in-ten-minutes/",
+    destination: "/accessibility-test-in-ten-minutes",
+    permanent: true,
+  },
+  {
+    source: "/2008/07/10/rounded-coreners-using-pure-css-and-just-one-image/",
+    destination: "/rounded-coreners-using-pure-css-and-just-one-image",
+    permanent: true,
+  },
+  {
+    source: "/2008/07/16/free-upgrade-to-all-mofuse-accounts/",
+    destination: "/free-upgrade-to-all-mofuse-accounts",
+    permanent: true,
+  },
+  {
+    source: "/2008/07/22/seo-and-urls-7-things-you-must-avoid/",
+    destination: "/seo-and-urls-7-things-you-must-avoid",
+    permanent: true,
+  },
+  {
+    source: "/2008/08/25/greek-corporate-blogs-greece-is-so-behind/",
+    destination: "/greek-corporate-blogs-greece-is-so-behind",
+    permanent: true,
+  },
+  {
+    source: "/2008/08/29/progressive-enhancement-tsevdoscom-sidebar/",
+    destination: "/progressive-enhancement-tsevdoscom-sidebar",
+    permanent: true,
+  },
+  {
+    source: "/2008/08/31/best-of-the-rest-35-week-2008/",
+    destination: "/best-of-the-rest-35-week-2008",
+    permanent: true,
+  },
+  {
+    source: "/2008/09/04/google-chrome-a-more-techy-opinion/",
+    destination: "/google-chrome-a-more-techy-opinion",
+    permanent: true,
+  },
+  {
+    source: "/2008/09/08/best-of-the-rest-36-week-2008/",
+    destination: "/best-of-the-rest-36-week-2008",
+    permanent: true,
+  },
+  {
+    source: "/2008/09/11/whitepress-version-1/",
+    destination: "/whitepress-version-1",
+    permanent: true,
+  },
+  {
+    source: "/2008/09/14/best-of-the-rest-37-week-2008/",
+    destination: "/best-of-the-rest-37-week-2008",
+    permanent: true,
+  },
+  {
+    source: "/2008/09/21/best-of-the-rest-38-week-2008/",
+    destination: "/best-of-the-rest-38-week-2008",
+    permanent: true,
+  },
+  {
+    source: "/2008/09/22/css-frameworks-good-or-evil/",
+    destination: "/css-frameworks-good-or-evil",
+    permanent: true,
+  },
+  {
+    source: "/2008/09/24/css3gr-is-ready/",
+    destination: "/css3gr-is-ready",
+    permanent: true,
+  },
+  {
+    source: "/2008/09/28/best-of-the-rest-39-week-2008/",
+    destination: "/best-of-the-rest-39-week-2008",
+    permanent: true,
+  },
+  {
+    source: "/2008/10/05/best-of-the-rest-40-week-2008/",
+    destination: "/best-of-the-rest-40-week-2008",
+    permanent: true,
+  },
+  {
+    source: "/2008/10/09/british-web-guidelines-whats-wrong-with-them/",
+    destination: "/british-web-guidelines-whats-wrong-with-them",
+    permanent: true,
+  },
+  {
+    source: "/2008/10/12/best-of-the-rest-41-week-2008/",
+    destination: "/best-of-the-rest-41-week-2008",
+    permanent: true,
+  },
+  {
+    source: "/2008/10/13/blog-action-day-08/",
+    destination: "/blog-action-day-08",
+    permanent: true,
+  },
 ];

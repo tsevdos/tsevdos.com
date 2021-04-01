@@ -70,21 +70,6 @@ const Sidebar: FC<SidebarProps> = ({ pages, categories }) => (
 
       <nav id="menu">
         <header className="major">
-          <h2>Categories</h2>
-        </header>
-        <ul>
-          {categories.map((category) => (
-            <li key={category}>
-              <Link href={`/category/${encodeURIComponent(category)}/page/1`}>
-                <a>{category}</a>
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </nav>
-
-      <nav id="menu">
-        <header className="major">
           <h2>Links</h2>
         </header>
         <ul>
@@ -113,6 +98,21 @@ const Sidebar: FC<SidebarProps> = ({ pages, categories }) => (
               Twitter
             </a>
           </li>
+        </ul>
+      </nav>
+
+      <nav id="menu">
+        <header className="major">
+          <h2>Categories</h2>
+        </header>
+        <ul>
+          {categories.map((category) => (
+            <li key={category}>
+              <Link href={`/category/${encodeURIComponent(category)}/page/1`}>
+                <a>{category}</a>
+              </Link>
+            </li>
+          ))}
         </ul>
       </nav>
 
