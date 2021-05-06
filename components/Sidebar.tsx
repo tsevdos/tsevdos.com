@@ -24,6 +24,13 @@ const Sidebar: FC<SidebarProps> = ({ pages, categories }) => (
           Hi, I’m a software engineer from Athens 🇬🇷 and huge fan of{" "}
           <a href="https://jamstack.org/" target="_blank">
             Jamstack
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://en.wikipedia.org/wiki/Serverless_computing"
+            target="_blank"
+          >
+            Serverless
           </a>
           . I'm working full-time at{" "}
           <a href="https://www.epignosishq.com" target="_blank">

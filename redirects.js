@@ -376,4 +376,104 @@ module.exports = [
     destination: "/blog-action-day-08",
     permanent: true,
   },
+  {
+    source: "/2008/10/16/free-popularity-monitoring-tools/",
+    destination: "/free-popularity-monitoring-tools",
+    permanent: true,
+  },
+  {
+    source: "/2008/10/19/best-of-the-rest-42-week-2008/",
+    destination: "/best-of-the-rest-42-week-2008",
+    permanent: true,
+  },
+  {
+    source: "/2008/11/02/nofollow-attribute/",
+    destination: "/nofollow-attribute",
+    permanent: true,
+  },
+  {
+    source: "/2008/11/10/microsoft-small-basic/",
+    destination: "/microsoft-small-basic",
+    permanent: true,
+  },
+  {
+    source: "/2008/11/11/yahoo-web-analytics/",
+    destination: "/yahoo-web-analytics",
+    permanent: true,
+  },
+  {
+    source: "/2008/11/12/text-links-ads-vs-google-adsence/",
+    destination: "/text-links-ads-vs-google-adsence",
+    permanent: true,
+  },
+  {
+    source: "/2008/11/17/wp-best-posts-summary-plugin/",
+    destination: "/wp-best-posts-summary-plugin",
+    permanent: true,
+  },
+  {
+    source: "/2008/11/18/the-art-and-science-of-css-free-e-book/",
+    destination: "/the-art-and-science-of-css-free-e-book",
+    permanent: true,
+  },
+  {
+    source: "/2008/11/18/the-end-of-text-link-ads/",
+    destination: "/the-end-of-text-link-ads",
+    permanent: true,
+  },
+  {
+    source: "/2008/11/19/make-ie6-to-behave-like-ie7/",
+    destination: "/make-ie6-to-behave-like-ie7",
+    permanent: true,
+  },
+  {
+    source: "/2008/11/21/xhtmlme-com-the-greek-psd-to-xhtml-service/",
+    destination: "/xhtmlme-com-the-greek-psd-to-xhtml-service",
+    permanent: true,
+  },
+  {
+    source: "/2008/11/24/yahoo-browserplus/",
+    destination: "/yahoo-browserplus",
+    permanent: true,
+  },
+  {
+    source: "/2008/12/01/best-links-november-08/",
+    destination: "/best-links-november-08",
+    permanent: true,
+  },
+  {
+    source: "/2008/12/06/whitepress-theme-at-wordpressorg/",
+    destination: "/whitepress-theme-at-wordpressorg",
+    permanent: true,
+  },
+  {
+    source: "/2008/12/10/free-design-ebook/",
+    destination: "/free-design-ebook",
+    permanent: true,
+  },
+  {
+    source: "/2008/12/19/tsevdos-com-passes-the-100-sunscribers/",
+    destination: "/tsevdos-com-passes-the-100-sunscribers",
+    permanent: true,
+  },
+  {
+    source: "/2008/12/24/the-best-posts-of-2008/",
+    destination: "/the-best-posts-of-2008",
+    permanent: true,
+  },
+  {
+    source: "/2008/12/31/best-links-december-08/",
+    destination: "/best-links-december-08",
+    permanent: true,
+  },
+  {
+    source: "/2009/01/01/best-posts-dec-08/",
+    destination: "/best-posts-dec-08",
+    permanent: true,
+  },
+  {
+    source: "/2009/01/02/tsevdoscom-traffic-stats-2008/",
+    destination: "/tsevdoscom-traffic-stats-2008",
+    permanent: true,
+  },
 ];
