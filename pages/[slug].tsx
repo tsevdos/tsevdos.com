@@ -2,6 +2,7 @@ import { FC } from "react";
 import { GetStaticPaths, GetStaticProps } from "next";
 import ReactMarkdown from "react-markdown";
 import matter from "gray-matter";
+import rehypeRaw from "rehype-raw";
 import Head from "next/head";
 import {
   getAllSlugs,
@@ -28,7 +29,7 @@ const Page: FC<PostData> = ({ title, date, content }) => {
         <p>{formattedDate}</p>
       </header>
       <hr />
-      <ReactMarkdown allowDangerousHtml>{content}</ReactMarkdown>
+      <ReactMarkdown rehypePlugins={[rehypeRaw]}>{content}</ReactMarkdown>
       {title === "Contact" && <ContactForm />}
     </>
   );
