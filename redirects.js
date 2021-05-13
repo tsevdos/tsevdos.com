@@ -476,4 +476,54 @@ module.exports = [
     destination: "/tsevdoscom-traffic-stats-2008",
     permanent: true,
   },
+  {
+    source: "/2009/01/05/kazamias-2009/",
+    destination: "/kazamias-2009",
+    permanent: true,
+  },
+  {
+    source: "/2009/01/19/fast-development-5-tips-for-fast-results/",
+    destination: "/fast-development-5-tips-for-fast-results",
+    permanent: true,
+  },
+  {
+    source: "/2009/01/30/best-links-january-09/",
+    destination: "/best-links-january-09",
+    permanent: true,
+  },
+  {
+    source: "/2009/02/16/6-plus-1-ui-libraries/",
+    destination: "/6-plus-1-ui-libraries",
+    permanent: true,
+  },
+  {
+    source: "/2009/02/27/tsevdoscom-is-upgrading-to-wordpress-2-7-1/",
+    destination: "/tsevdoscom-is-upgrading-to-wordpress-2-7-1",
+    permanent: true,
+  },
+  {
+    source: "/2009/03/07/best-links-february-09/",
+    destination: "/best-links-february-09",
+    permanent: true,
+  },
+  {
+    source: "/2009/03/22/ie8-is-ready/",
+    destination: "/ie8-is-ready",
+    permanent: true,
+  },
+  {
+    source: "/2009/03/31/the-solution-we-ve-all-been-waiting-for/",
+    destination: "/the-solution-we-ve-all-been-waiting-for",
+    permanent: true,
+  },
+  {
+    source: "/2009/04/08/best-links-march-09/",
+    destination: "/best-links-march-09",
+    permanent: true,
+  },
+  {
+    source: "/2009/04/19/w3c-site-redesign/",
+    destination: "/w3c-site-redesign",
+    permanent: true,
+  },
 ];
