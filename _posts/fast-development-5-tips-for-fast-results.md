@@ -25,6 +25,7 @@ tags:
   - text editors
   - tools
 ---
+
 Πολλοί δεν έχουν πίστη στο λαϊκό ρητό &#8220;το γοργό και χάριν έχει&#8221;, ωστόσο είναι πάρα πολλές οι φορές που απλά πρέπει να βγει κάτι στον αέρα γρήγορα! Οι πιο σκληροπυρηνικοί developers, ανήκα και εγώ κάποτε σε αυτήν την κατηγορία, θέλουν να ξεκινάνε τα πάντα από το μηδέν έτσι ώστε να ελέγχουν πλήρως τον κώδικα και γενικότερα να φτιάχνουν τα πάντα με τα χεράκια τους. Όπως καταλαβαίνεται, αυτές οι εποχές έχουν περάσει πλέον, και γενικότερα δεν εξυπηρετεί σε τίποτα να προσπαθείς να ξανά-ανακαλύψεις τον τροχό, όταν το έχει κάνει ήδη κάποιος άλλος&#8230; Παρακάτω δίνω 5 συμβουλές που πιστεύω πως εάν ακολουθηθούν, θα έχετε σε πολύ γρήγορο χρονικό διάστημα φοβερές βελτιώσεις στους development χρόνους σας, και θα σώσετε αρκετό χρόνο από κάθε σας project (και θεωρητικά θα έχετε περισσότερο χρόνο για την οικογένεια σας και τους φίλους σας, κάτι που φυσικά δεν ισχύει γιατί τα projects δεν σταματάνε ποτέ!). Έχουμε και λέμε λοιπόν :
 
 ## 1. Χρησιμοποιήστε frameworks και libraries
@@ -37,11 +38,11 @@ tags:
 
 Φυσικά και μπορείτε να κάνετε την δουλειά σας με το Notepad των Windows, το ερώτημα όμως είναι πόσο γρήγορα την κάνετε? Το θέμα text editor ή [IDE](http://en.wikipedia.org/wiki/Integrated_development_environment "IDE in Wiki") είναι κάτι καθαρά προσωπικό και ο καθένας έχει τις προτιμήσεις του. Προσωπικά προτιμώ τους text editors μιας και είναι πιο ελαφριοί από τα IDE (επίσης δουλεύω ελάχιστα σε server-side επίπεδο πλέον), ενώ θέλω οπωσδήποτε να υποστηρίζουν και τα παρακάτω χαρακτηριστικά :
 
-  * syntax highlighting
-  * auto-fill
-  * syntax suggestions
+- syntax highlighting
+- auto-fill
+- syntax suggestions
 
-Τα IDE έχουν συνήθως και άλλα πιο εξεζητημένα χαρακτηριστικά, όπως FTP access, διαγνωστικά εργαλεία, εργαλεία για debugging και διάφορα άλλα που αν και χρήσιμα, συνήθως κάνουν αρκετά πιο βαριές τις εφαρμογές, κάτι που δεν μ&#8217; αρέσει. Έτσι προτιμώ να χρησιμοποιώ τον  [<span>Ε Τext Εditor</span>](http://www.e-texteditor.com/ "E Text Editor") (μοιάζει με το [TextMate](http://macromates.com/ "TextMate")), [Intype](http://intype.info/home/index.php "Intype") (project που δυστυχώς αργοπεθαίνει) και [Notepad ++](http://notepad-plus.sourceforge.net/uk/site.htm "Notepad ++") από τα διάφορα IDE όπως [<span>Εclipse</span>](http://www.eclipse.org/ "Eclipse"), [<span>NetBeans</span>](http://www.netbeans.org/ "NetBeans"), [Aptana Studio](http://www.aptana.com/studio "Aptana Studio") και [Komodo IDE](http://www.activestate.com/komodo/ "Komodo IDE"). Όπως και να έχει δοκιμάστε μερικά από αυτά, βρείτε πιο σας ταιριάζει και γράψτε πιο γρήγορα κώδικα!
+Τα IDE έχουν συνήθως και άλλα πιο εξεζητημένα χαρακτηριστικά, όπως FTP access, διαγνωστικά εργαλεία, εργαλεία για debugging και διάφορα άλλα που αν και χρήσιμα, συνήθως κάνουν αρκετά πιο βαριές τις εφαρμογές, κάτι που δεν μ&#8217; αρέσει. Έτσι προτιμώ να χρησιμοποιώ τον [<span>Ε Τext Εditor</span>](http://www.e-texteditor.com/ "E Text Editor") (μοιάζει με το [TextMate](http://macromates.com/ "TextMate")), [Intype](http://intype.info/home/index.php "Intype") (project που δυστυχώς αργοπεθαίνει) και [Notepad ++](http://notepad-plus.sourceforge.net/uk/site.htm "Notepad ++") από τα διάφορα IDE όπως [<span>Εclipse</span>](http://www.eclipse.org/ "Eclipse"), [<span>NetBeans</span>](http://www.netbeans.org/ "NetBeans"), [Aptana Studio](http://www.aptana.com/studio "Aptana Studio") και [Komodo IDE](http://www.activestate.com/komodo/ "Komodo IDE"). Όπως και να έχει δοκιμάστε μερικά από αυτά, βρείτε πιο σας ταιριάζει και γράψτε πιο γρήγορα κώδικα!
 
 ## 3. Reusable code ή free code
 
