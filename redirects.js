@@ -526,4 +526,54 @@ module.exports = [
     destination: "/w3c-site-redesign",
     permanent: true,
   },
+  {
+    source: "/2009/07/03/best-links-june-09/",
+    destination: "/best-links-june-09",
+    permanent: true,
+  },
+  {
+    source: "/2009/06/10/easyinput-jquery-plug-in/",
+    destination: "/easyinput-jquery-plug-in",
+    permanent: true,
+  },
+  {
+    source: "/2009/06/09/google-wave-first-look/",
+    destination: "/google-wave-first-look",
+    permanent: true,
+  },
+  {
+    source: "/2009/06/01/best-links-may-09/",
+    destination: "/best-links-may-09",
+    permanent: true,
+  },
+  {
+    source: "/2009/05/26/xhtml-tags-we-must-use/",
+    destination: "/xhtml-tags-we-must-use",
+    permanent: true,
+  },
+  {
+    source: "/2009/05/22/maka-site/",
+    destination: "/amka-site",
+    permanent: true,
+  },
+  {
+    source: "/2009/05/05/designminds-is-here/",
+    destination: "/designminds-is-here",
+    permanent: true,
+  },
+  {
+    source: "/2009/04/22/why-i-hate-twitter/",
+    destination: "/why-i-hate-twitter",
+    permanent: true,
+  },
+  {
+    source: "/2009/04/28/mobifyme/",
+    destination: "/mobifyme",
+    permanent: true,
+  },
+  {
+    source: "/2009/05/04/best-links-april-09/",
+    destination: "/best-links-april-09",
+    permanent: true,
+  },
 ];

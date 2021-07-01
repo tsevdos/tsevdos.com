@@ -2,7 +2,6 @@
 title: "Τα καλύτερα links - Φεβρουάριος 09"
 date: "2009-03-07"
 type: "post"
-permalink: /2009/03/07/best-links-february-09/
 categories:
   - links
 tags:
