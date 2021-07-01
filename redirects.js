@@ -576,4 +576,61 @@ module.exports = [
     destination: "/best-links-april-09",
     permanent: true,
   },
+  {
+    source:
+      "/2009/10/12/easy-to-implement-accessibility-tips-use-option-groups-to-forms/",
+    destination:
+      "/easy-to-implement-accessibility-tips-use-option-groups-to-forms",
+    permanent: true,
+  },
+  {
+    source: "/2009/10/05/best-links-september-09/",
+    destination: "/best-links-september-09",
+    permanent: true,
+  },
+  {
+    source: "/2009/09/23/presentational-graphics-vs-content-graphics/",
+    destination: "/presentational-graphics-vs-content-graphics",
+    permanent: true,
+  },
+  {
+    source: "/2009/09/09/css-seletcors/",
+    destination: "/css-seletcors",
+    permanent: true,
+  },
+  {
+    source: "/2009/07/06/the-end-of-xhtml2/",
+    destination: "/the-end-of-xhtml2",
+    permanent: true,
+  },
+  {
+    source:
+      "/2009/09/03/get-the-principles-of-successful-freelancing-book-for-free/",
+    destination: "/get-the-principles-of-successful-freelancing-book-for-free",
+    permanent: true,
+  },
+  {
+    source:
+      "/2009/08/23/easy-to-implement-accessibility-tips-skip-over-navigation-links/",
+    destination:
+      "/easy-to-implement-accessibility-tips-skip-over-navigation-links",
+    permanent: true,
+  },
+  {
+    source:
+      "/2009/07/30/easy-to-implement-accessibility-tips-extra-navigation-for-text-browsers-and-screen-readers/",
+    destination:
+      "/easy-to-implement-accessibility-tips-extra-navigation-for-text-browsers-and-screen-readers",
+    permanent: true,
+  },
+  {
+    source: "/2009/08/19/best-links-july-august-09/",
+    destination: "/best-links-july-august-09",
+    permanent: true,
+  },
+  {
+    source: "/2009/08/08/ssmap-podcast/",
+    destination: "/ssmap-podcast",
+    permanent: true,
+  },
 ];
