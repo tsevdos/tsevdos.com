@@ -714,4 +714,54 @@ module.exports = [
     destination: "/blog-action-day-09",
     permanent: true,
   },
+  {
+    source: "/2010/12/14/my-presentation-at-drupalcamp-2010/",
+    destination: "/my-presentation-at-drupalcamp-2010",
+    permanent: true,
+  },
+  {
+    source: "/2010/12/10/athens-drupalcamp-2010/",
+    destination: "/athens-drupalcamp-2010",
+    permanent: true,
+  },
+  {
+    source: "/2010/11/16/my-iphone-screens/",
+    destination: "/my-iphone-screens",
+    permanent: true,
+  },
+  {
+    source: "/2010/11/08/css-inheritance-and-cascade/",
+    destination: "/css-inheritance-and-cascade",
+    permanent: true,
+  },
+  {
+    source: "/2010/11/01/css3-and-csss/",
+    destination: "/css3-and-csss",
+    permanent: true,
+  },
+  {
+    source: "/2010/10/10/good-luck-cssigniter/",
+    destination: "/good-luck-cssigniter",
+    permanent: true,
+  },
+  {
+    source: "/2010/09/27/web-experts-and-greece/",
+    destination: "/web-experts-and-greece",
+    permanent: true,
+  },
+  {
+    source: "/2010/09/13/html5-thoughts/",
+    destination: "/html5-thoughts",
+    permanent: true,
+  },
+  {
+    source: "/2010/08/26/phrappe-com-announcement/",
+    destination: "/phrappe-com-announcement",
+    permanent: true,
+  },
+  {
+    source: "/2010/07/26/base-tag-or-simply-the-client-side-debuging-tag/",
+    destination: "/base-tag-or-simply-the-client-side-debuging-tag",
+    permanent: true,
+  },
 ];
