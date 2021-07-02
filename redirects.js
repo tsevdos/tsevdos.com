@@ -633,4 +633,85 @@ module.exports = [
     destination: "/ssmap-podcast",
     permanent: true,
   },
+  {
+    source: "/2010/01/24/wordcamp-thessalonikis-here-i-come/",
+    destination: "/wordcamp-thessalonikis-here-i-come",
+    permanent: true,
+  },
+  {
+    source: "/2010/01/09/hilights-of-the-decade/",
+    destination: "/hilights-of-the-decade",
+    permanent: true,
+  },
+  {
+    source: "/2010/01/07/kazamias-2010/",
+    destination: "/kazamias-2010",
+    permanent: true,
+  },
+  {
+    source: "/2010/01/03/best-links-december-09/",
+    destination: "/best-links-december-09",
+    permanent: true,
+  },
+  {
+    source: "/2009/12/30/styling-html5-elements/",
+    destination: "/styling-html5-elements",
+    permanent: true,
+  },
+  {
+    source: "/2009/12/29/wordpress-and-bad-quality-on-statistcs-plugins/",
+    destination: "/wordpress-and-bad-quality-on-statistcs-plugins",
+    permanent: true,
+  },
+  {
+    source: "/2009/12/25/tsevdos-toolset/",
+    destination: "/tsevdos-toolset",
+    permanent: true,
+  },
+  {
+    source: "/2009/12/21/first-greek-wordcamp/",
+    destination: "/first-greek-wordcamp",
+    permanent: true,
+  },
+  {
+    source: "/2009/12/20/wordpress-29-is-here/",
+    destination: "/wordpress-29-is-here",
+    permanent: true,
+  },
+  {
+    source: "/2009/12/06/best-links-november-09/",
+    destination: "/best-links-november-09",
+    permanent: true,
+  },
+  {
+    source: "/2009/11/27/google-wave-invitation/",
+    destination: "/google-wave-invitation",
+    permanent: true,
+  },
+  {
+    source: "/2009/11/25/internet-explorer-9/",
+    destination: "/internet-explorer-9",
+    permanent: true,
+  },
+  {
+    source:
+      "/2009/11/17/easy-to-implement-accessibility-tips-use-correct-labels/",
+    destination: "/easy-to-implement-accessibility-tips-use-correct-labels",
+    permanent: true,
+  },
+  {
+    source: "/2009/11/04/greek-eshopping-magic/",
+    destination: "/greek-eshopping-magic",
+    permanent: true,
+  },
+  {
+    source: "/2009/11/03/best-links-october-09/",
+    destination: "/best-links-october-09",
+    permanent: true,
+  },
+  {
+    source: "/2009/10/14/blog-action-day-09/",
+    destination: "/blog-action-day-09",
+    permanent: true,
+  },
 ];
