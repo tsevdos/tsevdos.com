@@ -764,4 +764,56 @@ module.exports = [
     destination: "/base-tag-or-simply-the-client-side-debuging-tag",
     permanent: true,
   },
+  {
+    source: "/2010/02/02/greek-wordcamp-the-aftermath/",
+    destination: "/greek-wordcamp-the-aftermath",
+    permanent: true,
+  },
+  {
+    source: "/2010/02/17/flash-the-beginning-of-the-end/",
+    destination: "/flash-the-beginning-of-the-end",
+    permanent: true,
+  },
+  {
+    source: "/2010/03/03/getting-real-what-we-really-need/",
+    destination: "/getting-real-what-we-really-need",
+    permanent: true,
+  },
+  {
+    source: "/2010/03/15/tsevdos-com-and-wptouch-plug-in/",
+    destination: "/tsevdos-com-and-wptouch-plug-in",
+    permanent: true,
+  },
+  {
+    source: "/2010/07/13/the-costumer-is-always-wrong/",
+    destination: "/the-costumer-is-always-wrong",
+    permanent: true,
+  },
+  {
+    source:
+      "/2010/07/04/interact-with-web-standards-a-holistic-approach-to-web-design/",
+    destination:
+      "/interact-with-web-standards-a-holistic-approach-to-web-design",
+    permanent: true,
+  },
+  {
+    source: "/2010/03/23/write-html5-using-xhtml/",
+    destination: "/write-html5-using-xhtml",
+    permanent: true,
+  },
+  {
+    source: "/2010/04/27/tsevdos-interview-at-greektutsnet/",
+    destination: "/tsevdos-interview-at-greektutsnet",
+    permanent: true,
+  },
+  {
+    source: "/2010/05/18/my-last-greek-post/",
+    destination: "/my-last-greek-post",
+    permanent: true,
+  },
+  {
+    source: "/2010/06/18/wordpress-3-0-first-look/",
+    destination: "/wordpress-3-0-first-look",
+    permanent: true,
+  },
 ];
