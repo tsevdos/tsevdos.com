@@ -816,4 +816,77 @@ module.exports = [
     destination: "/wordpress-3-0-first-look",
     permanent: true,
   },
+  {
+    source: "/2011/01/03/2010-a-personal-review/",
+    destination: "/a-personal-review",
+    permanent: true,
+  },
+  {
+    source: "/2011/03/28/nwrapper-jquery-plugin/",
+    destination: "/nwrapper-jquery-plugin",
+    permanent: true,
+  },
+  {
+    source: "/2011/05/19/css3-online-tools/",
+    destination: "/css3-online-tools",
+    permanent: true,
+  },
+  {
+    source: "/2011/05/26/3-greek-events-worth-watching/",
+    destination: "/greek-events-worth-watching",
+    permanent: true,
+  },
+  {
+    source: "/2011/06/21/mobile-app-vs-native-app/",
+    destination: "/mobile-app-vs-native-app",
+    permanent: true,
+  },
+  {
+    source: "/2011/06/26/ambrosia-wordpress-theme/",
+    destination: "/ambrosia-wordpress-theme",
+    permanent: true,
+  },
+  {
+    source:
+      "/2011/07/26/front-end-development-libraries-frameworks-and-other-tools/",
+    destination: "/front-end-development-libraries-frameworks-and-other-tools",
+    permanent: true,
+  },
+  {
+    source: "/2011/08/12/ipad-apps-and-thoughts/",
+    destination: "/ipad-apps-and-thoughts",
+    permanent: true,
+  },
+  {
+    source: "/2011/10/25/inetrnet-is-my-religion/",
+    destination: "/inetrnet-is-my-religion",
+    permanent: true,
+  },
+  {
+    source:
+      "/2011/11/01/ambrosia-theme-is-into-the-best-50-free-wordpress-themes-list-of-2011/",
+    destination:
+      "ambrosia-theme-is-into-the-best-50-free-wordpress-themes-list-of-2011",
+    permanent: true,
+  },
+  {
+    source: "/2012/01/01/happy-new-year-2012/",
+    destination: "happy-new-year-2012",
+    permanent: true,
+  },
+  {
+    source: "/2012/01/11/sopa-act/",
+    destination: "sopa-act",
+    permanent: true,
+  },
+  {
+    source: "/2012/03/22/adaptive-vs-responsive-design-whats-the-difference/",
+    destination: "adaptive-vs-responsive-design-whats-the-difference",
+    permanent: true,
+  },
+  {
+    source: "/2012/04/24/free-javascript-books/",
+    destination: "free-javascript-books",
+    permanent: true,
+  },
 ];

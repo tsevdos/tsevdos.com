@@ -30,6 +30,7 @@ const CategoryPage: FC<CategoryPageProps> = ({
       <title>{`${category} - ${Config.title}`}</title>
     </Head>
 
+    <h1>Category: {category}</h1>
     {posts.map((post) => (
       <PostPreview key={post.slug} {...post} />
     ))}
