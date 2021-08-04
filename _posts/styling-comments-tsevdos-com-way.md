@@ -24,9 +24,7 @@ tags:
 <div id="comments">
   <ol>
     <li>
-      <div class="author_meta">
-        <a href="http://www.tsevdos.com">John Tsevdos</a> :
-      </div>
+      <div class="author_meta"><a href="http://www.tsevdos.com">John Tsevdos</a> :</div>
 
       <div class="comment_body">
         <p>Comment body goes here.</p>
@@ -38,9 +36,7 @@ tags:
     </li>
 
     <li class="alt">
-      <div class="author_meta">
-        <a href="http://www.tsevdos.com">John Tsevdos</a> :
-      </div>
+      <div class="author_meta"><a href="http://www.tsevdos.com">John Tsevdos</a> :</div>
 
       <div class="comment_body">
         <p>Comment body goes here.</p>
@@ -61,13 +57,16 @@ a {
   font-size: 0.8em;
   font-family: Tahoma, Verdana, sans-serif;
 }
+
 a:link {
   color: #2ea0c6;
 }
+
 a:visited {
   color: #7d7f81;
   text-decoration: underline;
 }
+
 a:hover,
 a:active {
   color: #ff6d1e;
@@ -167,9 +166,7 @@ $(this).prepend(node);
 <div id="comments">
   <ol>
     <li>
-      <div class="author_meta">
-        <a href="http://www.tsevdos.com">John Tsevdos</a> :
-      </div>
+      <div class="author_meta"><a href="http://www.tsevdos.com">John Tsevdos</a> :</div>
 
       <div class="comment_body">
         <p>Comment body goes here.</p>
@@ -181,9 +178,7 @@ $(this).prepend(node);
     </li>
 
     <li class="alt">
-      <div class="author_meta">
-        <a href="http://www.tsevdos.com">John Tsevdos</a> :
-      </div>
+      <div class="author_meta"><a href="http://www.tsevdos.com">John Tsevdos</a> :</div>
 
       <div class="comment_body">
         <p>Comment body goes here.</p>
@@ -195,9 +190,7 @@ $(this).prepend(node);
     </li>
 
     <li>
-      <div class="author_meta">
-        <a href="http://www.tsevdos.com">John Tsevdos</a> :
-      </div>
+      <div class="author_meta"><a href="http://www.tsevdos.com">John Tsevdos</a> :</div>
 
       <div class="comment_body">
         <p>Comment body goes here.</p>
@@ -209,9 +202,7 @@ $(this).prepend(node);
     </li>
 
     <li class="alt">
-      <div class="author_meta">
-        <a href="http://www.tsevdos.com">John Tsevdos</a> :
-      </div>
+      <div class="author_meta"><a href="http://www.tsevdos.com">John Tsevdos</a> :</div>
 
       <div class="comment_body">
         <p>Comment body goes here.</p>

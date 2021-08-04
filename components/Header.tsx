@@ -11,10 +11,7 @@ const Header: FC = () => (
     </Link>
     <ul className="icons">
       <li>
-        <a
-          href="https://www.linkedin.com/in/tsevdosjohn/"
-          className="icon brands fa-linkedin-in"
-        >
+        <a href="https://www.linkedin.com/in/tsevdosjohn/" className="icon brands fa-linkedin-in">
           <span className="label">LinkedIn</span>
         </a>
       </li>
@@ -24,10 +21,7 @@ const Header: FC = () => (
         </a>
       </li>
       <li>
-        <a
-          href="https://twitter.com/tsevdos"
-          className="icon brands fa-twitter"
-        >
+        <a href="https://twitter.com/tsevdos" className="icon brands fa-twitter">
           <span className="label">Twitter</span>
         </a>
       </li>

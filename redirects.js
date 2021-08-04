@@ -25,16 +25,13 @@ module.exports = [
     permanent: true,
   },
   {
-    source:
-      "/2007/10/17/how-to-make-your-blog-better-part-one-design-and-theme/",
+    source: "/2007/10/17/how-to-make-your-blog-better-part-one-design-and-theme/",
     destination: "/how-to-make-your-blog-better-part-one-design-and-theme",
     permanent: true,
   },
   {
-    source:
-      "/2007/10/30/how-to-make-your-blog-better-part-two-interaction-and-navigation/",
-    destination:
-      "/how-to-make-your-blog-better-part-two-interaction-and-navigation",
+    source: "/2007/10/30/how-to-make-your-blog-better-part-two-interaction-and-navigation/",
+    destination: "/how-to-make-your-blog-better-part-two-interaction-and-navigation",
     permanent: true,
   },
   {
@@ -138,10 +135,8 @@ module.exports = [
     permanent: true,
   },
   {
-    source:
-      "/2008/01/29/internet-explorer-8-and-version-targeting-microsofts-big-mistake/",
-    destination:
-      "/internet-explorer-8-and-version-targeting-microsofts-big-mistake",
+    source: "/2008/01/29/internet-explorer-8-and-version-targeting-microsofts-big-mistake/",
+    destination: "/internet-explorer-8-and-version-targeting-microsofts-big-mistake",
     permanent: true,
   },
   {
@@ -195,10 +190,8 @@ module.exports = [
     permanent: true,
   },
   {
-    source:
-      "/2008/03/05/how-to-make-your-site-faster-the-ultimate-guide-to-site-optimization/",
-    destination:
-      "/how-to-make-your-site-faster-the-ultimate-guide-to-site-optimization",
+    source: "/2008/03/05/how-to-make-your-site-faster-the-ultimate-guide-to-site-optimization/",
+    destination: "/how-to-make-your-site-faster-the-ultimate-guide-to-site-optimization",
     permanent: true,
   },
   {
@@ -577,10 +570,8 @@ module.exports = [
     permanent: true,
   },
   {
-    source:
-      "/2009/10/12/easy-to-implement-accessibility-tips-use-option-groups-to-forms/",
-    destination:
-      "/easy-to-implement-accessibility-tips-use-option-groups-to-forms",
+    source: "/2009/10/12/easy-to-implement-accessibility-tips-use-option-groups-to-forms/",
+    destination: "/easy-to-implement-accessibility-tips-use-option-groups-to-forms",
     permanent: true,
   },
   {
@@ -604,16 +595,13 @@ module.exports = [
     permanent: true,
   },
   {
-    source:
-      "/2009/09/03/get-the-principles-of-successful-freelancing-book-for-free/",
+    source: "/2009/09/03/get-the-principles-of-successful-freelancing-book-for-free/",
     destination: "/get-the-principles-of-successful-freelancing-book-for-free",
     permanent: true,
   },
   {
-    source:
-      "/2009/08/23/easy-to-implement-accessibility-tips-skip-over-navigation-links/",
-    destination:
-      "/easy-to-implement-accessibility-tips-skip-over-navigation-links",
+    source: "/2009/08/23/easy-to-implement-accessibility-tips-skip-over-navigation-links/",
+    destination: "/easy-to-implement-accessibility-tips-skip-over-navigation-links",
     permanent: true,
   },
   {
@@ -694,8 +682,7 @@ module.exports = [
     permanent: true,
   },
   {
-    source:
-      "/2009/11/17/easy-to-implement-accessibility-tips-use-correct-labels/",
+    source: "/2009/11/17/easy-to-implement-accessibility-tips-use-correct-labels/",
     destination: "/easy-to-implement-accessibility-tips-use-correct-labels",
     permanent: true,
   },
@@ -790,10 +777,8 @@ module.exports = [
     permanent: true,
   },
   {
-    source:
-      "/2010/07/04/interact-with-web-standards-a-holistic-approach-to-web-design/",
-    destination:
-      "/interact-with-web-standards-a-holistic-approach-to-web-design",
+    source: "/2010/07/04/interact-with-web-standards-a-holistic-approach-to-web-design/",
+    destination: "/interact-with-web-standards-a-holistic-approach-to-web-design",
     permanent: true,
   },
   {
@@ -847,8 +832,7 @@ module.exports = [
     permanent: true,
   },
   {
-    source:
-      "/2011/07/26/front-end-development-libraries-frameworks-and-other-tools/",
+    source: "/2011/07/26/front-end-development-libraries-frameworks-and-other-tools/",
     destination: "/front-end-development-libraries-frameworks-and-other-tools",
     permanent: true,
   },
@@ -863,10 +847,8 @@ module.exports = [
     permanent: true,
   },
   {
-    source:
-      "/2011/11/01/ambrosia-theme-is-into-the-best-50-free-wordpress-themes-list-of-2011/",
-    destination:
-      "/ambrosia-theme-is-into-the-best-50-free-wordpress-themes-list-of-2011",
+    source: "/2011/11/01/ambrosia-theme-is-into-the-best-50-free-wordpress-themes-list-of-2011/",
+    destination: "/ambrosia-theme-is-into-the-best-50-free-wordpress-themes-list-of-2011",
     permanent: true,
   },
   {

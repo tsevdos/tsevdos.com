@@ -23,9 +23,7 @@ tags:
   <ul>
     <li><a title="Go to content" href="#content">Skip to content</a></li>
     <li>
-      <a title="Go to main navigation" href="#navigation"
-        >Skip to main navigation</a
-      >
+      <a title="Go to main navigation" href="#navigation">Skip to main navigation</a>
     </li>
     <li><a title="Go to Search form" href="#search">Skip to Search form</a></li>
   </ul>

@@ -22,24 +22,26 @@ const Sidebar: FC<SidebarProps> = ({ pages, categories }) => (
         </header>
         <p>
           Hi, I’m a software engineer from Athens 🇬🇷 and huge fan of{" "}
-          <a href="https://jamstack.org/" target="_blank">
+          <a href="https://jamstack.org/" target="_blank" rel="noreferrer">
             Jamstack
           </a>{" "}
           and{" "}
           <a
             href="https://en.wikipedia.org/wiki/Serverless_computing"
             target="_blank"
+            rel="noreferrer"
           >
             Serverless
           </a>
           . I'm working full-time at{" "}
-          <a href="https://www.epignosishq.com" target="_blank">
+          <a href="https://www.epignosishq.com" target="_blank" rel="noreferrer">
             Epignosis
           </a>{" "}
           and I'm sharing my JavaScript and React knowledge at{" "}
           <a
             href="https://www.codehub.gr/codelearn/our-instructors/"
             target="_blank"
+            rel="noreferrer"
           >
             Code.Hub
           </a>{" "}
@@ -47,6 +49,7 @@ const Sidebar: FC<SidebarProps> = ({ pages, categories }) => (
           <a
             href="https://socialhackersacademy.org/meet-our-team/"
             target="_blank"
+            rel="noreferrer"
           >
             Social Hackers Academy
           </a>
@@ -81,27 +84,27 @@ const Sidebar: FC<SidebarProps> = ({ pages, categories }) => (
         </header>
         <ul>
           <li>
-            <a href="https://tsevdos.me/" target="_blank">
+            <a href="https://tsevdos.me/" target="_blank" rel="noreferrer">
               Tsevdos.me
             </a>
           </li>
           <li>
-            <a href="http://phrappe.com/" target="_blank">
+            <a href="http://phrappe.com/" target="_blank" rel="noreferrer">
               Phrappe.com
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/tsevdosjohn" target="_blank">
+            <a href="https://www.linkedin.com/in/tsevdosjohn" target="_blank" rel="noreferrer">
               LinkedIn
             </a>
           </li>
           <li>
-            <a href="https://github.com/tsevdos" target="_blank">
+            <a href="https://github.com/tsevdos" target="_blank" rel="noreferrer">
               GitHub
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/tsevdos" target="_blank">
+            <a href="https://twitter.com/tsevdos" target="_blank" rel="noreferrer">
               Twitter
             </a>
           </li>
@@ -127,7 +130,7 @@ const Sidebar: FC<SidebarProps> = ({ pages, categories }) => (
         <p className="copyright">
           © John Tsevdos. All rights reserved. <br />
           Design:{" "}
-          <a target="_blank" href="https://html5up.net">
+          <a target="_blank" href="https://html5up.net" rel="noreferrer">
             HTML5 UP
           </a>
           .

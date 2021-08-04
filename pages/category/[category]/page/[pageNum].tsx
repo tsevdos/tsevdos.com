@@ -20,11 +20,7 @@ type CategoryPageProps = {
   category: string;
 };
 
-const CategoryPage: FC<CategoryPageProps> = ({
-  posts,
-  pagination,
-  category,
-}) => (
+const CategoryPage: FC<CategoryPageProps> = ({ posts, pagination, category }) => (
   <>
     <Head>
       <title>{`${category} - ${Config.title}`}</title>

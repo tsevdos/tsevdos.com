@@ -28,16 +28,8 @@ tags:
 
 ```html
 <link rel="home" title="Home" href="http://www.tsevdos.com/" />
-<link
-  rel="prev"
-  title="Title of previous page"
-  href="http://www.tsevdos.com/</code><code>previous-page"
-/>
-<link
-  rel="next"
-  title="Title of next page"
-  href="http://www.tsevdos.com/</code><code>next-page"
-/>
+<link rel="prev" title="Title of previous page" href="http://www.tsevdos.com/previous-page" />
+<link rel="next" title="Title of next page" href="http://www.tsevdos.com/next-page" />
 ```
 
 Όπως βλέπεται η χρήση του είναι πανεύκολη και τα πλεονεκτήματα αρκετά, έτσι ώστε να το χρησιμοποιήσουμε.
