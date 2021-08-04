@@ -866,27 +866,108 @@ module.exports = [
     source:
       "/2011/11/01/ambrosia-theme-is-into-the-best-50-free-wordpress-themes-list-of-2011/",
     destination:
-      "ambrosia-theme-is-into-the-best-50-free-wordpress-themes-list-of-2011",
+      "/ambrosia-theme-is-into-the-best-50-free-wordpress-themes-list-of-2011",
     permanent: true,
   },
   {
     source: "/2012/01/01/happy-new-year-2012/",
-    destination: "happy-new-year-2012",
+    destination: "/happy-new-year-2012",
     permanent: true,
   },
   {
     source: "/2012/01/11/sopa-act/",
-    destination: "sopa-act",
+    destination: "/sopa-act",
     permanent: true,
   },
   {
     source: "/2012/03/22/adaptive-vs-responsive-design-whats-the-difference/",
-    destination: "adaptive-vs-responsive-design-whats-the-difference",
+    destination: "/adaptive-vs-responsive-design-whats-the-difference",
     permanent: true,
   },
   {
     source: "/2012/04/24/free-javascript-books/",
-    destination: "free-javascript-books",
+    destination: "/free-javascript-books",
+    permanent: true,
+  },
+
+  {
+    source: "/2012/07/13/github-account-checked/",
+    destination: "/github-account-checked",
+    permanent: true,
+  },
+  {
+    source: "/2012/11/15/upnorth-conference-be-there/",
+    destination: "/upnorth-conference-be-there",
+    permanent: true,
+  },
+  {
+    source: "/2012/12/25/my-presentation-at-upnorth-conference/",
+    destination: "/my-presentation-at-upnorth-conference",
+    permanent: true,
+  },
+  {
+    source: "/2013/03/20/my-presentation-at-first-joomlafrappe/",
+    destination: "/my-presentation-at-first-joomlafrappe",
+    permanent: true,
+  },
+  {
+    source: "/2013/06/25/joomladay-2013-and-my-presentation-there/",
+    destination: "/joomladay-2013-and-my-presentation-there",
+    permanent: true,
+  },
+  {
+    source: "/2013/07/02/site-antipatterns/",
+    destination: "/site-antipatterns",
+    permanent: true,
+  },
+  {
+    source: "/2013/07/09/vanity-metrics/",
+    destination: "/vanity-metrics",
+    permanent: true,
+  },
+  {
+    source: "/2013/09/10/linux-summer-switch/",
+    destination: "/linux-summer-switch",
+    permanent: true,
+  },
+  {
+    source: "/2014/01/15/css3-rules-of-tomorrow-today-part-1/",
+    destination: "/css3-rules-of-tomorrow-today-part-1",
+    permanent: true,
+  },
+  {
+    source: "/2014/01/28/css3-rules-of-tomorrow-today-part-2/",
+    destination: "/css3-rules-of-tomorrow-today-part-2",
+    permanent: true,
+  },
+  {
+    source: "/2014/03/04/css-selectors-part-1-css1/",
+    destination: "/css-selectors-part-1-css1",
+    permanent: true,
+  },
+  {
+    source: "/2014/04/16/css-selectors-part-2-css2/",
+    destination: "/css-selectors-part-2-css2",
+    permanent: true,
+  },
+  {
+    source: "/2014/06/03/misc/",
+    destination: "/misc",
+    permanent: true,
+  },
+  {
+    source: "/2015/12/12/css-selectors-part-3-css3/",
+    destination: "/css-selectors-part-3-css3",
+    permanent: true,
+  },
+  {
+    source: "/2015/12/14/greek-in-tech/",
+    destination: "/greek-in-tech",
+    permanent: true,
+  },
+  {
+    source: "/2017/01/26/repocompare/",
+    destination: "/repocompare",
     permanent: true,
   },
 ];
