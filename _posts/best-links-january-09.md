@@ -25,7 +25,7 @@ tags:
 
 ## Web Design
 
-- Το [**Malo**](http://code.google.com/p/malo/ "Malo css library") είναι μια πολύ ελαφριά CSS library. Τις [απόψεις μου περί CSS libraries](http://www.tsevdos.com/2008/09/22/css-frameworks-good-or-evil/ "CSS frameworks : Αξίζουν ή όχι") τις ξέρετε...
+- Το [**Malo**](http://code.google.com/p/malo/ "Malo css library") είναι μια πολύ ελαφριά CSS library. Τις [απόψεις μου περί CSS libraries](http://www.tsevdos.com/2008/09/22/css-frameworks-good-or-evil/ "CSS frameworks: Αξίζουν ή όχι") τις ξέρετε...
 - Έχετε βαρεθεί να σχεδιάζεται τις ίδιες και τις ίδιες φόρμες; Εάν η απάντηση είναι θετική, το [css globe](http://cssglobe.com/ "css globe site") προσφέρει δωρεάν κάποιες [όμορφες φόρμες για κατέβασμα](http://cssglobe.com/collections/forms/ "CSSG Collections: Web Forms"). Για όσους λοιπόν δεν έχουν τις γνώσεις ή τον χρόνο για να δημιουργήσουν κάτι από την αρχή, [οι συγκεκριμένες φόρμες](http://cssglobe.com/collections/forms/ "CSSG Collections: Web Forms") είναι μία πολύ καλή λύση.
 
 ## Web Development
@@ -43,7 +43,7 @@ tags:
 - [Δείτε ότι βλέπουν πραγματικά οι web browsers](http://selector-shell.appspot.com/ "CSS Selector Shell")! Ενδιαφέρον, αλλά μετά από κάνα-δυο tests, απλά δεν θες να ξανανοίξεις την σελίδα...
 - Βαρεθήκατε να αναβάζεται τα video σας 1-1 σε κάθε υπηρεσία που υπάρχει; Εάν η απάντηση είναι θετική, τότε το [**TubeMogul**](http://www.tubemogul.com/ "TubeMogul") είναι η υπηρεσία που θα σας λύσει τα χέρια. Εάν μάλιστα θέλετε και επιπλέον χαρακτηριστικά για τα video σας (όπως στατιστικά, keyword tagging, κτλ ) τότε [ρίξτε και μια ματιά σε κάποιο από τα επί πκηρωμή πακέτα του](http://www.tubemogul.com/about/features.php "TubeMogul Features and Product Packages").
 - To [Web Development Project Estimator](http://astuteo.com/estimator/ "Web Development Project Estimator") κάνει αυτό που λέει! Απλά ξεκινήστε ένα καινούργιο project, προσθέστε τα tasks και τις τιμές τους, και τελειώσατε!
-- Το [**ScreenToaster**](http://www.screentoaster.com/ "ScreenToaster :  Toast your screen") είναι μια φανταστική υπηρεσία δημιουργίας screencasts! Αν και δεν συμπαθώ την Java τεχνολογία, το συγκεκριμένο site καταφέρνει να την χρησιμοποιήσει πολύ αξιόλογα.
+- Το [**ScreenToaster**](http://www.screentoaster.com/ "ScreenToaster:  Toast your screen") είναι μια φανταστική υπηρεσία δημιουργίας screencasts! Αν και δεν συμπαθώ την Java τεχνολογία, το συγκεκριμένο site καταφέρνει να την χρησιμοποιήσει πολύ αξιόλογα.
 
 ## Τυπογραφία (Typography)
 

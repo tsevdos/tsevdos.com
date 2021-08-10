@@ -20,7 +20,7 @@ Easy:input is my first attempt at building a jQuery plug in. The plug in is very
 
 ## How to use it
 
-Just select the text inputs or textareas you want (example :text or :textarea) and apply the easyinput to them (see below examples).
+Just select the text inputs or textareas you want (example `:text` or `:textarea`) and apply the easyinput to them (see below examples).
 
 **Default/light theme ([example page](/uploads/easyinput/easyinput-default.html)).**
 
@@ -66,7 +66,7 @@ $(document).ready(function () {
 
 ## Download it
 
-Please visit the [plug in&#8217;s official page](http://plugins.jquery.com/project/easyinput "Easy:input plug in page") in order to get the latest version of it.
+Please visit the [plug in's official page](http://plugins.jquery.com/project/easyinput "Easy:input plug in page") in order to get the latest version of it.
 
 ## Known issues
 
@@ -74,4 +74,4 @@ Please visit the [plug in&#8217;s official page](http://plugins.jquery.com/proje
 
 ## Recommendations or Issues
 
-For any recommendations or any other issues please let me know by either leaving a comment on this page, or simply by submitting your thoughts on the [plug in&#8217;s official page](http://plugins.jquery.com/project/easyinput "Easy:input plug in page") on jQuery (you need to have a jQuery account to do that).
+For any recommendations or any other issues please let me know by either leaving a comment on this page, or simply by submitting your thoughts on the [plug in's official page](http://plugins.jquery.com/project/easyinput "Easy:input plug in page") on jQuery (you need to have a jQuery account to do that).

@@ -18,4 +18,4 @@ tags:
 
 Από μια γρήγορη ματιά που του έριξα, είναι κάπως πολύπλοκο και δύσκολο στην χρήση, τουλάχιστον μέχρι να καταλάβεις πως λειτουργεί, όμως αυτό είναι και η δύναμη του, μιας και με αυτόν τον τρόπο μας προσφέρει πλήρη ελευθερία στις δημιουργίες μας.
 
-Τέλος οι τύποι είναι και πολύ έξυπνοι στο marketing μιας και επικοινώνησαν με μεγάλα sites/blogs όπως το [Veerle&#8217;s blog](http://veerle.duoh.com/ "Veerle's blog") και το [A List Apart](http://alistapart.com/ "A List Apart") και τους δημιούργησαν - δωρεάν φυσικά - τις [mobile](http://mobify.me/gallery/veerle/ "Veerle's blog mobile version") [version](http://mobify.me/gallery/alistapart/ "A List Apart mobile version") τους!
+Τέλος οι τύποι είναι και πολύ έξυπνοι στο marketing μιας και επικοινώνησαν με μεγάλα sites/blogs όπως το [Veerle's blog](http://veerle.duoh.com/ "Veerle's blog") και το [A List Apart](http://alistapart.com/ "A List Apart") και τους δημιούργησαν - δωρεάν φυσικά - τις [mobile](http://mobify.me/gallery/veerle/ "Veerle's blog mobile version") [version](http://mobify.me/gallery/alistapart/ "A List Apart mobile version") τους!

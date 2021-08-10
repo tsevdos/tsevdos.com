@@ -14,7 +14,7 @@ tags:
   - yahoo
 ---
 
-Η γνωστή effects, Ajax και γενικότερα UI (user interface) [**library της Yahoo!**](http://developer.yahoo.com/yui/ "Yahoo! UI") απέκτησε ένα ολοκαίνουργιο [**selector utility**](http://developer.yahoo.com/yui/selector/ "Yahoo! UI selector Utility") το οποίο αντιγράφει την μέθοδο επιλογής του [jQuery](http://jquery.com/ "jQuery library") στην [**Yahoo! UΙ library**](http://developer.yahoo.com/yui/ "Yahoo! UI")! Έτσι χρησιμοποιώντας κάποιος την library της [Yahoo!](http://www.yahoo.com/ "Yahoo!") μπορεί πλέον να επιλέξει κάποιο element με τον γνωστό [jQuery](http://jquery.com/ "Jquery") τρόπο :
+Η γνωστή effects, Ajax και γενικότερα UI (user interface) [**library της Yahoo!**](http://developer.yahoo.com/yui/ "Yahoo! UI") απέκτησε ένα ολοκαίνουργιο [**selector utility**](http://developer.yahoo.com/yui/selector/ "Yahoo! UI selector Utility") το οποίο αντιγράφει την μέθοδο επιλογής του [jQuery](http://jquery.com/ "jQuery library") στην [**Yahoo! UΙ library**](http://developer.yahoo.com/yui/ "Yahoo! UI")! Έτσι χρησιμοποιώντας κάποιος την library της [Yahoo!](http://www.yahoo.com/ "Yahoo!") μπορεί πλέον να επιλέξει κάποιο element με τον γνωστό [jQuery](http://jquery.com/ "Jquery") τρόπο:
 
 ```js
 var p_nodes = YAHOO.util.Selector.query("p");

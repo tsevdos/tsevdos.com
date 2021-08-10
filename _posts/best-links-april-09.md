@@ -31,7 +31,7 @@ tags:
 
 - To [**Glimmer**](http://visitmix.com/Lab/glimmer "Glimmer") είναι ένα δωρεάν desktop application - μόνο για Windows προς το παρόν - το οποίο σας βοηθάει να γράφεται [jQuery](http://jquery.com/ "jQuery library") κώδικα! Τι άλλο θα δούμε...
 - Μόλις τελειώσατε το καινούργιο web design σας στον αγαπημένο σας browser, και ανακαλύπτετε πως δεν παίζει σωστά στον IE6. Βαριέστε (όπως όλοι μας) να λύσετε όλα τα σπαστικά IE6-only bugs; Μην ανησυχείτε, υπάρχει λύση. Απλά επισκεφθείτε το [**ie6fixer**](http://www.onderhond.com/tools/ie6fixer/ "ie6fixer") επιλέξτε ποια γνωστά bugs θέλετε να διορθωθούν, ανεβάστε το CSS αρχείο σας, και αυτό ήταν όλο. To [**ie6fixer**](http://www.onderhond.com/tools/ie6fixer/ "ie6fixer") θα δημιουργήσει αυτόματα τον IE6 κώδικα που χρειάζεστε (καλά μην περιμένετε και θαύματα, ωστόσο λύνει αρκετά προβλήματα εύκολα και γρήγορα).
-- [**jsDraw2D**](http://jsdraw2d.jsfiction.com/ "jsDraw2D JavaScript Graphics Library") : Ακόμα μία Javascript library για γραφήματα...
+- [**jsDraw2D**](http://jsdraw2d.jsfiction.com/ "jsDraw2D JavaScript Graphics Library"): Ακόμα μία Javascript library για γραφήματα...
 
 ## Web Development
 
@@ -47,7 +47,7 @@ tags:
 
 ## WordPress
 
-- Στo [WPSeek.com](http://wpseek.com/ "WPSeek.com : Find WordPress Functions, Template Tags, Function Sources, User Notes. Add Your Own.") μπορείτε να βρείτε όλα τα WordPress template tags και  functions μαζί με πολλά άλλα resources και σημειώσεις. Μπορείτε επίσης να συνεισφέρετε και τις δικές σας.
+- Στo [WPSeek.com](http://wpseek.com/ "WPSeek.com: Find WordPress Functions, Template Tags, Function Sources, User Notes. Add Your Own.") μπορείτε να βρείτε όλα τα WordPress template tags και  functions μαζί με πολλά άλλα resources και σημειώσεις. Μπορείτε επίσης να συνεισφέρετε και τις δικές σας.
 
 ## Διάφορα links
 

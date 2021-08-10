@@ -13,7 +13,7 @@ tags:
   - wordpress
 ---
 
-Η [τελική (version 1.0) έκδοση του **Whitepress theme**](https://wordpress.org/themes/whitepress/ "Whitepress theme page") είναι έτοιμη και μπορείτε να την [κατεβάσετε](https://wordpress.org/themes/whitepress/ "Download Whitepress theme"), δωρεάν όπως πάντα, από τα επίσημα [Wordpress themes](http://code.google.com/p/whipress/downloads/list "Download Whitepress theme"). Η [καινούργια version](https://wordpress.org/themes/whitepress/ "Whitepress theme page") κρατάει όλα τα χαρακτηριστικά της πρώτης, ενώ προσθέτει και πάρα πολλά καινούργια! Για περισσότερες πληροφορίες μπορείτε να διαβάσετε (στα αγγλικά δυστυχώς &#8211; δεν έχω χρόνο να τα μεταφράσω) όλη την λίστα χαρακτηριστικών :
+Η [τελική (version 1.0) έκδοση του **Whitepress theme**](https://wordpress.org/themes/whitepress/ "Whitepress theme page") είναι έτοιμη και μπορείτε να την [κατεβάσετε](https://wordpress.org/themes/whitepress/ "Download Whitepress theme"), δωρεάν όπως πάντα, από τα επίσημα [Wordpress themes](http://code.google.com/p/whipress/downloads/list "Download Whitepress theme"). Η [καινούργια version](https://wordpress.org/themes/whitepress/ "Whitepress theme page") κρατάει όλα τα χαρακτηριστικά της πρώτης, ενώ προσθέτει και πάρα πολλά καινούργια! Για περισσότερες πληροφορίες μπορείτε να διαβάσετε (στα αγγλικά δυστυχώς - δεν έχω χρόνο να τα μεταφράσω) όλη την λίστα χαρακτηριστικών:
 
 - Super clean and minimalistic design
 - Really lightweight theme! The generated code (including files and images) is less than 40K
