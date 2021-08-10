@@ -19,9 +19,9 @@ categories:
 
 Τέλος μιας και τελευταίος έχω καταφέρει να φτιάξω μία λίστα με όλα τα posts που δημοσιεύθηκαν σχετικά με το Wordcamp (για να μην κουράζεστε).
 
-- Από το επίσημο blog : [Η επόμενη μέρα #1](http://wordcamp.gr/%CE%B7-%CE%B5%CF%80%CF%8C%CE%BC%CE%B5%CE%BD%CE%B7-%CE%BC%CE%AD%CF%81%CE%B1/ "Η επόμενη μέρα #1")
-- Από τον Γιάννη, που ευτυχώς θα μπορέσω κάποια στιγμή (μιας και τον γνωρίζω προσωπικά) να μάθω τις απαντήσεις στις ερωτήσεις που δεν πρόλαβα να κάνω : [WordCamp - Εντυπώσεις και η παρουσίαση μου](http://el.porcupine.gr/web-design/comments/wordcamp-the-aftermath/ "Porcupine Colors - WordCamp - Εντυπώσεις και η παρουσίαση μου")
-- Από τον Γεράσιμο, που έπαιξε safe κάνοντας μία από τις καλύτερες παρουσιάσεις : [10 Wordcamp Greece](http://theportraitofageek.com/blog/?p=796 "1o Wordcamp Greece")
+- Από το επίσημο blog: [Η επόμενη μέρα #1](http://wordcamp.gr/%CE%B7-%CE%B5%CF%80%CF%8C%CE%BC%CE%B5%CE%BD%CE%B7-%CE%BC%CE%AD%CF%81%CE%B1/ "Η επόμενη μέρα #1")
+- Από τον Γιάννη, που ευτυχώς θα μπορέσω κάποια στιγμή (μιας και τον γνωρίζω προσωπικά) να μάθω τις απαντήσεις στις ερωτήσεις που δεν πρόλαβα να κάνω: [WordCamp - Εντυπώσεις και η παρουσίαση μου](http://el.porcupine.gr/web-design/comments/wordcamp-the-aftermath/ "Porcupine Colors - WordCamp - Εντυπώσεις και η παρουσίαση μου")
+- Από τον Γεράσιμο, που έπαιξε safe κάνοντας μία από τις καλύτερες παρουσιάσεις: [10 Wordcamp Greece](http://theportraitofageek.com/blog/?p=796 "1o Wordcamp Greece")
 - Το [Aftermath του Βασίλη Μαστοροστέργιου](http://www.gnomon-design.gr/blog/wordcamp-greece-the-aftermath/ "Wordcamp Greece – The Aftermath"), τον οποίο δεν γνωρίζω, αλλά τα έγραψε τέλεια!
 - [My 2 Bits about WordCampGRE](http://weirdal.thecompany.gr/geekstuff/my-2-bits-about-wordcampgre/ "My 2 Bits about WordCampGRE"). Μην σας μπερδεύει ο τίτλος, στα ελληνικά είναι το post
 - [Wordcamp Θεσσαλονίκη](http://argos.wordpress.com/2010/02/01/wordcampgre/ "Wordcamp Θεσσαλονίκη")

@@ -11,4 +11,4 @@ tags:
   - wordpress
 ---
 
-The specific post was created in order to discuss any issues regarding the [**Whitepress theme**](/whitepress-theme/ "Whitepress theme page"), so feel free to leave your comments, thoughts and suggestions&#8230;
+The specific post was created in order to discuss any issues regarding the [**Whitepress theme**](/whitepress-theme/ "Whitepress theme page"), so feel free to leave your comments, thoughts and suggestions...

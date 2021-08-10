@@ -9,7 +9,7 @@ tags:
   - css3
 ---
 
-**Σημείωση :** Το παρακάτω άρθρο γράφτηκε τον Οκτώβρη του 2008 (πριν 6 χρόνια!) για το [CSS3.gr](http://css3.gr/ "CSS3.gr").
+**Σημείωση:** Το παρακάτω άρθρο γράφτηκε τον Οκτώβρη του 2008 (πριν 6 χρόνια!) για το [CSS3.gr](http://css3.gr/ "CSS3.gr").
 
 Καλώς ήρθατε στο δεύτερο και τελευταίο μέρος του άρθρου, το οποίο έχει ως στόχο να κάνει γνωστούς και να σας βοηθήσει να εφαρμόσετε κάποιους CSS3 κανόνες που μπορείτε να χρησιμοποιήσετε εδώ και τώρα! Εάν δεν έχετε διαβάσει [το πρώτο μέρος του άρθρου](http://www.tsevdos.com/2014/01/15/css3-rules-of-tomorrow-today-part-1/ "Οι CSS3 κανόνες του αύριο, σήμερα (μέρος 1ο)"), καλό θα είναι να του ρίξετε μια ματιά, μιας και παρουσιάζονται και εκεί πολλά ενδιαφέροντα πραγματάκια.
 
@@ -19,7 +19,7 @@ tags:
 
 Ας ξεκινήσουμε από τον πρώτο κανόνα, ο οποίος θα σώσει στην κυριολεξία πολλά sites από extra και non-semantic markup η οποία χρησιμοποιείται απλά και μόνο για presentational σκοπούς, κάτι που φυσικά είναι λάθος. Τα καινούργια specifications λοιπόν, δίνουν επιτέλους την δυνατότητα να έχουμε πολλαπλά background γραφικά σε ένα element, και όχι μόνο ένα όπως ισχύει μέχρι τώρα! Φανταστείτε τι ελευθερία κινήσεων δίνεται πλέον τόσο στους styling κανόνες όσο και στην ίδια την markup μας, η οποία θα είναι πολύ πιο καθαρή, χρησιμοποιώντας απλά και μόνο τις νέες δυνατότητες του [background-image κανόνα](http://www.w3.org/TR/css3-background/#the-background-image "background-image CSS rule"), με τις αντίστοιχες ρυθμίσεις του!
 
-Στο παρακάτω παράδειγμα λοιπόν, το element με το id "multiple_backgrounds" θα έχει τέσσερα (ναι σωστά διαβάσατε) background images :
+Στο παρακάτω παράδειγμα λοιπόν, το element με το id "multiple_backgrounds" θα έχει τέσσερα (ναι σωστά διαβάσατε) background images:
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="qIAoG" data-user="tsevdos" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tsevdos/pen/qIAoG">

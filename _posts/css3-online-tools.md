@@ -19,15 +19,15 @@ tags:
 
 Παρακάτω έχω μαζέψει κάποια online εργαλεία που χρησιμοποιώ για την γρήγορη επίλυση των παραπάνω περιπτώσεων. Έχουμε και λέμε λοιπόν :
 
-- **[CSS3 Please!](http://css3please.com/ "CSS3 Please!")** : Ένα απλό αλλά πολύ περιεκτικό site για να αντιγράψετε εύκολα και γρήγορα τους CSS3 κανόνες που θέλετε (μαζί με όλα τα browser prefixes). Γρήγορο, minimal και "to the point". Είναι συνήθως ο πρώτος μου σταθμός όταν ψάχνω κάποιο prefix για CSS3 κανόνα.
-- **[CSS3 Generator](http://css3generator.com/ "CSS3 Generator")** : Εξίσου καλό εργαλείο, ωστόσο μερικές φορές πρέπει να κάνεις κάποια click παραπάνω για να πάρεις αυτό που θέλεις...
-- **[Font Squirrel](http://www.fontsquirrel.com/fontface/generator "Font Squirrel")** : Απλά το καλύτερο εργαλείο για μετατροπή γραμματοσειρών σε web fonts (`@font-face`). Δεν έχω χρησιμοποιήσει ποτέ μου άλλο εργαλείο γι' αυτήν την δουλειά.
-- **[Layer Styles](http://www.layerstyles.org/builder.html "Layer Styles")** : Ένα πολύ-εργαλείο που προσφέρει γραφικό περιβάλλον (σε στυλ “Photoshop”) για την δημιουργία των κανόνων μας, αλλά και live preview! Πολύ έξυπνη ιδέα και υλοποίηση, που θα βοηθήσει πολλούς γραφίστες και όχι μόνο...
-- **[Drop Shadow Generator](http://www.wordpressthemeshock.com/css-drop-shadow/ "Drop Shadow Generator")** : Πιο εξειδικευμένο στις σκιές, ωστόσο τα έτοιμα presets του είναι φανταστικά, ενώ μπορείτε να δείτε και σε live preview το πως θα φαίνεται η σκιά σας. Προσωπικά το χρησιμοποιώ συχνά γιατί δεν μπορώ να προβλέψω με τίποτα το πως θα φαίνονται οι σκιές στον browser!
+- [**CSS3 Please!**](http://css3please.com/ "CSS3 Please!"): Ένα απλό αλλά πολύ περιεκτικό site για να αντιγράψετε εύκολα και γρήγορα τους CSS3 κανόνες που θέλετε (μαζί με όλα τα browser prefixes). Γρήγορο, minimal και "to the point". Είναι συνήθως ο πρώτος μου σταθμός όταν ψάχνω κάποιο prefix για CSS3 κανόνα.
+- [**CSS3 Generator**](http://css3generator.com/ "CSS3 Generator"): Εξίσου καλό εργαλείο, ωστόσο μερικές φορές πρέπει να κάνεις κάποια click παραπάνω για να πάρεις αυτό που θέλεις...
+- [**Font Squirrel**](http://www.fontsquirrel.com/fontface/generator "Font Squirrel"): Απλά το καλύτερο εργαλείο για μετατροπή γραμματοσειρών σε web fonts (`@font-face`). Δεν έχω χρησιμοποιήσει ποτέ μου άλλο εργαλείο γι' αυτήν την δουλειά.
+- [**Layer Styles**](http://www.layerstyles.org/builder.html "Layer Styles"): Ένα πολύ-εργαλείο που προσφέρει γραφικό περιβάλλον (σε στυλ “Photoshop”) για την δημιουργία των κανόνων μας, αλλά και live preview! Πολύ έξυπνη ιδέα και υλοποίηση, που θα βοηθήσει πολλούς γραφίστες και όχι μόνο...
+- [**Drop Shadow Generator**](http://www.wordpressthemeshock.com/css-drop-shadow/ "Drop Shadow Generator"): Πιο εξειδικευμένο στις σκιές, ωστόσο τα έτοιμα presets του είναι φανταστικά, ενώ μπορείτε να δείτε και σε live preview το πως θα φαίνεται η σκιά σας. Προσωπικά το χρησιμοποιώ συχνά γιατί δεν μπορώ να προβλέψω με τίποτα το πως θα φαίνονται οι σκιές στον browser!
 
 Έχετε να προσθέσετε κάποιο άλλο εργαλείο, τότε απλά αφήστε ένα comment 😉
 
-**Update** : Προσθέτω ακόμα 2 πολύ καλά εργαλεία που συστήνει ο φίλος μου [Γιάννης](http://el.porcupine.gr/ "Porcupine.gr").
+**Update**: Προσθέτω ακόμα 2 πολύ καλά εργαλεία που συστήνει ο φίλος μου [Γιάννης](http://el.porcupine.gr/ "Porcupine.gr").
 
-- **[CSS3 Maker](http://www.css3maker.com/ "CSS3 Maker")** : Μια λύση "όλα σε ένα", μιας και δημιουργεί κώδικα για τα πάντα, από `border-radius` μέχρι `CSS animations`. Μου αρέσει γιατί δείχνει και ποιοι browsers υποστηρίζουν τους CSS3 κανόνες.
-- **[Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/ "Ultimate CSS Gradient Generator")** : Πολύ καλό εργαλείο για την δημιουργία gradients με πολλά presets και εύκολο UI.
+- [**CSS3 Maker**](http://www.css3maker.com/ "CSS3 Maker"): Μια λύση "όλα σε ένα", μιας και δημιουργεί κώδικα για τα πάντα, από `border-radius` μέχρι `CSS animations`. Μου αρέσει γιατί δείχνει και ποιοι browsers υποστηρίζουν τους CSS3 κανόνες.
+- [**Ultimate CSS Gradient Generator**](http://www.colorzilla.com/gradient-editor/ "Ultimate CSS Gradient Generator") : Πολύ καλό εργαλείο για την δημιουργία gradients με πολλά presets και εύκολο UI.

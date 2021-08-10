@@ -22,7 +22,7 @@ tags:
 
 ## Web Design
 
-- [Dive into HTML5](http://diveintohtml5.org/ "Dive into HTML5") : Μια φανταστική πηγή εκμάθησης **HTML5**.
+- [Dive into HTML5](http://diveintohtml5.org/ "Dive into HTML5"): Μια φανταστική πηγή εκμάθησης **HTML5**.
 - [CSS παρουσιάσεις που πρέπει να δείτε](http://woorkup.com/2009/10/31/5-must-read-presentations-about-css-coding/ "5 Must Read Presentations about CSS Coding"): Απλά εξαιρετικές... Και τι δεν θα έδινα για να έβλεπα τις παρουσιάσεις  **"Efficient, Maintainable CSS"** και **"CSS Inheritance"**, όταν πρωτο-ξεκίναγα και εγώ (δυστυχώς έπρεπε να τα μάθω με τον δύσκολο τρόπο)...
 
 ## Web Development

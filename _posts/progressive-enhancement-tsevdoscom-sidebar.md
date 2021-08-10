@@ -60,7 +60,7 @@ tags:
 
 ## CSS
 
-To styling (CSS) της συγκεκριμένης markup δεν παίζει κανέναν απολύτως ρόλο στον κώδικα μας (όλη η δουλειά γίνεται μέσω Javascript/jQuery), ωστόσο γι αυτούς που θέλουν να δημιουργήσουν κάτι στα γρήγορα, ας αντιγράψουν τον παρακάτω κώδικα, τον οποίο χρησιμοποιώ και στο παράδειγμα που μπορείτε να [δείτε](http://www.tsevdos.com/wp-content/uploads/sidebar/sidebar-example.html "Sidebar live example") και φυσικά να [κατεβάσετε](http://www.tsevdos.com/wp-content/uploads/sidebar/sidebar.zip "Download sidebar example")!
+To styling (CSS) της συγκεκριμένης markup δεν παίζει κανέναν απολύτως ρόλο στον κώδικα μας (όλη η δουλειά γίνεται μέσω Javascript/jQuery), ωστόσο γι αυτούς που θέλουν να δημιουργήσουν κάτι στα γρήγορα, ας αντιγράψουν τον παρακάτω κώδικα, τον οποίο χρησιμοποιώ και στο παράδειγμα που μπορείτε να [δείτε](/uploads/sidebar/sidebar-example.html "Sidebar live example") και φυσικά να [κατεβάσετε](/uploads/sidebar/sidebar.zip "Download sidebar example")!
 
 ```css
 * {
@@ -168,5 +168,5 @@ return false;
 
 To [jQuery](http://jquery.com/ "jQuery library") είναι πραγματικά μια φανταστική Javascript library η οποία κάνει τα δύσκολα πράγματα απλά! Όπως βλέπεται μέσα σε μόλις 6-7 γραμμές κώδικα έχουμε ένα πολύ όμορφο και accessible αποτέλεσμα το οποίο μπορεί να χρησιμοποιηθεί παντού! Η δυνατότητα του να κάνεις εύκολα και γρήγορα αυτά που έχεις στο μυαλό σου, χωρίς να σε απασχολούν οι μικρολεπτομέρειες τις Javascript (οι οποίες πιστέψτε με είναι πολλές και ενοχλητικές), είναι αυτό που κάνει το [jQuery](http://jquery.com/ "jQuery library") να ξεχωρίζει από τις άλλες libraries. Τέλος για όσους θέλουν μια ακόμα πιο εύκολη και φυσικά accessible λύση καλό θα είναι να ρίξουν και μια ματιά στο [UI Tabs](http://docs.jquery.com/UI/Tabs "UI plug in for jQuery") το οποίο είναι ένα επίσημο plug-in για το [jQuery](http://jquery.com/ "jQuery library") και κάνει με πολύ λιγότερο κόπο αυτό που δημιουργήσαμε παραπάνω ()&#8230;
 
-- [**Δείτε το παράδειγμα στον browser σας**](http://www.tsevdos.com/wp-content/uploads/sidebar/sidebar-example.html "See live example")
-- [**Κατεβάστε τα αρχεία του tutorial**](http://www.tsevdos.com/wp-content/uploads/sidebar/sidebar.zip "Download sidebar files")
+- [**Δείτε το παράδειγμα στον browser σας**](/uploads/sidebar/sidebar-example.html "See live example")
+- [**Κατεβάστε τα αρχεία του tutorial**](/uploads/sidebar/sidebar.zip "Download sidebar files")
