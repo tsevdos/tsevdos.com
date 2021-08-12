@@ -17,6 +17,7 @@ const Layout: FC<LayoutProps> = ({ pages, categories, children }) => (
       <title>{`${Config.title} | ${Config.tagline}`}</title>
       <meta name="Description" content={Config.tagline}></meta>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="icon" href="/favicon.ico" />
       <link rel="stylesheet" href="/assets/css/main.css" />
     </Head>
     <div id="wrapper">
