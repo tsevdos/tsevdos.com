@@ -3,6 +3,7 @@ import { GetStaticPaths, GetStaticProps } from "next";
 import ReactMarkdown from "react-markdown";
 import matter from "gray-matter";
 import rehypeRaw from "rehype-raw";
+import { DiscussionEmbed } from "disqus-react";
 import Head from "next/head";
 import { getAllSlugs, getCategories, getPages, getDataFromSlug } from "../lib/helpers";
 import ContactForm from "../components/ContactForm";
@@ -12,6 +13,11 @@ import styles from "./page.module.css";
 
 const Page: FC<PostData> = ({ title, date, content }) => {
   const formattedDate = new Date(date).toLocaleDateString("el-GR");
+  const disqusConfig = {
+    url: "https://your-site-url/post-slug",
+    identifier: title, // Single post id
+    title: title, // Single post title
+  };
 
   return (
     <>
@@ -25,6 +31,10 @@ const Page: FC<PostData> = ({ title, date, content }) => {
       </header>
       <hr />
       <ReactMarkdown rehypePlugins={[rehypeRaw]}>{content}</ReactMarkdown>
+      <div>
+        <DiscussionEmbed shortname="tsevdos" config={disqusConfig} />
+      </div>
+
       {title === "Contact" && <ContactForm />}
     </>
   );
