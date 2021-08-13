@@ -11,7 +11,7 @@ import { PostData } from "../lib/types";
 import Config from "../lib/config";
 import styles from "./page.module.css";
 
-const Page: FC<PostData> = ({ title, date, content }) => {
+const Page: FC<PostData> = ({ title, date, type, content }) => {
   const formattedDate = new Date(date).toLocaleDateString("el-GR");
   const disqusConfig = {
     url: "https://your-site-url/post-slug",
@@ -31,9 +31,12 @@ const Page: FC<PostData> = ({ title, date, content }) => {
       </header>
       <hr />
       <ReactMarkdown rehypePlugins={[rehypeRaw]}>{content}</ReactMarkdown>
-      <div>
-        <DiscussionEmbed shortname="tsevdos" config={disqusConfig} />
-      </div>
+
+      {type === "post" && (
+        <div>
+          <DiscussionEmbed shortname="tsevdos" config={disqusConfig} />
+        </div>
+      )}
 
       {title === "Contact" && <ContactForm />}
     </>
