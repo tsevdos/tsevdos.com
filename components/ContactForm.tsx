@@ -7,7 +7,7 @@ const ContactForm: FC = () => {
     message: "",
   });
   const { name, email, message } = formData;
-  const updateForm = (e: ChangeEvent<HTMLInputElement>) => {
+  const updateForm = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const key = e.target.name;
     const value = e.target.value;
     setFormData({ ...formData, [key]: value });

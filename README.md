@@ -10,6 +10,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## TODO
 
+- [] redirects
 - [] Add google analytics
 - [] Add feed
 - [] Add Search

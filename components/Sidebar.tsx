@@ -33,11 +33,11 @@ const Sidebar: FC<SidebarProps> = ({ pages, categories }) => (
           >
             Serverless
           </a>
-          . I'm working full-time at{" "}
+          . I&apos;m working full-time at{" "}
           <a href="https://www.epignosishq.com" target="_blank" rel="noreferrer">
             Epignosis
           </a>{" "}
-          and I'm sharing my JavaScript and React knowledge at{" "}
+          and I&apos;m sharing my JavaScript and React knowledge at{" "}
           <a
             href="https://www.codehub.gr/codelearn/our-instructors/"
             target="_blank"

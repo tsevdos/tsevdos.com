@@ -18,6 +18,7 @@ const Page: FC<PostData> = ({ title, date, type, content }) => {
     identifier: title, // Single post id
     title: title, // Single post title
   };
+  const isPostEntry = type === "post";
 
   return (
     <>
@@ -27,12 +28,12 @@ const Page: FC<PostData> = ({ title, date, type, content }) => {
 
       <header className={styles.header}>
         <h1>{title}</h1>
-        <p>{formattedDate}</p>
+        {isPostEntry && <p>{formattedDate}</p>}
       </header>
       <hr />
       <ReactMarkdown rehypePlugins={[rehypeRaw]}>{content}</ReactMarkdown>
 
-      {type === "post" && (
+      {isPostEntry && (
         <div>
           <DiscussionEmbed shortname="tsevdos" config={disqusConfig} />
         </div>
