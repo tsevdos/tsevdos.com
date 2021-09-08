@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "postbuild": "next-sitemap && cp ./_redirects ./",
+    "postbuild": "next-sitemap && cp ./_redirects ./out/",
     "start": "next start",
     "lint": "eslint . --ext .ts,.tsx",
     "lint:fix": "npm run lint -- --fix",
@@ -27,6 +27,7 @@
     "@typescript-eslint/eslint-plugin": "^4.31.0",
     "@typescript-eslint/parser": "^4.31.0",
     "eslint": "^7.32.0",
+    "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-react": "^7.25.1",
     "next-sitemap": "^1.6.168",

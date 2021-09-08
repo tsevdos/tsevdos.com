@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { FC } from "react";
 import Link from "next/link";
 import { PostData } from "../lib/types";
@@ -33,11 +34,11 @@ const Sidebar: FC<SidebarProps> = ({ pages, categories }) => (
           >
             Serverless
           </a>
-          . I&apos;m working full-time at{" "}
+          . I'm working full-time at{" "}
           <a href="https://www.epignosishq.com" target="_blank" rel="noreferrer">
             Epignosis
           </a>{" "}
-          and I&apos;m sharing my JavaScript and React knowledge at{" "}
+          and I'm sharing my JavaScript and React knowledge at{" "}
           <a
             href="https://www.codehub.gr/codelearn/our-instructors/"
             target="_blank"
