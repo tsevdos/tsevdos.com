@@ -1,8 +1,9 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import { Feed } from "feed";
 import { PostData } from "./types";
-import { POSTS_PER_PAGE } from "./config";
+import Config, { POSTS_PER_PAGE } from "./config";
 
 const contentDirectory = path.join(process.cwd(), "_posts");
 const fileNames = fs.readdirSync(contentDirectory);
@@ -125,4 +126,53 @@ export const getPagination = (currentPage: number, totalPosts: number) => {
   const isLastPage = Math.floor(totalPosts / POSTS_PER_PAGE) + 1 === currentPage;
 
   return { currentPage, isFirstPage, isLastPage };
+};
+
+export const buildFeeds = async () => {
+  const posts = await getAllSortedPosts();
+  const siteURL = Config.url;
+  const date = new Date();
+  const author = {
+    name: Config.author,
+    email: "tsevdosjohn@gmail.com",
+    link: Config.url,
+  };
+
+  const feed = new Feed({
+    title: Config.title,
+    description: Config.tagline,
+    id: siteURL,
+    link: siteURL,
+    image: `${siteURL}/logo.svg`,
+    favicon: `${siteURL}/favicon.ico`,
+    copyright: `All rights reserved ${date.getFullYear()}, John Tsevdos`,
+    updated: date,
+    generator: "Feed for Node.js",
+    feedLinks: {
+      rss2: `${siteURL}/rss/feed.xml`,
+      json: `${siteURL}/rss/feed.json`,
+      atom: `${siteURL}/rss/atom.xml`,
+    },
+    author,
+  });
+
+  posts.forEach((post) => {
+    const url = `${siteURL}/${post.slug}`;
+
+    feed.addItem({
+      title: post.title,
+      id: url,
+      link: url,
+      description: post.content,
+      content: post.content,
+      author: [author],
+      contributor: [author],
+      date: new Date(post.date),
+    });
+  });
+
+  fs.mkdirSync("./public/rss", { recursive: true });
+  fs.writeFileSync("./public/rss/feed.xml", feed.rss2());
+  fs.writeFileSync("./public/rss/atom.xml", feed.atom1());
+  fs.writeFileSync("./public/rss/feed.json", feed.json1());
 };

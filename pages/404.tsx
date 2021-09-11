@@ -8,7 +8,7 @@ const Custom404: FC = () => {
   return (
     <>
       <Head>
-        <title>{`Page not found - ${Config.title}`}</title>
+        <title>{`404 - Page not found - ${Config.title}`}</title>
       </Head>
       <h1>404 - Page Not Found</h1>
     </>

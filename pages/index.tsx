@@ -2,7 +2,7 @@ import { FC } from "react";
 import { GetStaticProps } from "next";
 import PostPreview from "../components/PostPreview";
 import Pagination from "../components/Pagination";
-import { getSortedPostsPage, getPages, getCategories } from "../lib/helpers";
+import { getSortedPostsPage, getPages, getCategories, buildFeeds } from "../lib/helpers";
 import { PostData } from "../lib/types";
 
 type HomeProps = {
@@ -22,6 +22,7 @@ export const getStaticProps: GetStaticProps = async () => {
   const indexPosts = getSortedPostsPage(1);
   const pages = getPages();
   const categories = getCategories();
+  await buildFeeds(); // Build RSS Feed
 
   return {
     props: {

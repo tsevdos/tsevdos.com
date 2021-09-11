@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "postbuild": "next-sitemap && cp ./_redirects ./out/",
+    "postbuild": "cp ./_redirects ./out/ && next-sitemap",
     "start": "next start",
     "lint": "eslint . --ext .ts,.tsx",
     "lint:fix": "npm run lint -- --fix",
@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "disqus-react": "^1.1.2",
+    "feed": "^4.2.2",
     "gray-matter": "^4.0.3",
     "next": "^11.1.2",
     "react": "^17.0.2",
@@ -22,7 +23,7 @@
     "rehype-raw": "^6.1.0"
   },
   "devDependencies": {
-    "@types/node": "^16.7.13",
+    "@types/node": "^16.9.1",
     "@types/react": "^17.0.20",
     "@typescript-eslint/eslint-plugin": "^4.31.0",
     "@typescript-eslint/parser": "^4.31.0",
@@ -31,8 +32,8 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-react": "^7.25.1",
     "next-sitemap": "^1.6.168",
-    "prettier": "^2.3.2",
+    "prettier": "^2.4.0",
     "tslib": "^2.3.1",
-    "typescript": "^4.4.2"
+    "typescript": "^4.4.3"
   }
 }

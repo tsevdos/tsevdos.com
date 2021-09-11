@@ -19,6 +19,12 @@ const Layout: FC<LayoutProps> = ({ pages, categories, children }) => (
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.ico" />
       <link rel="stylesheet" href="/assets/css/main.css" />
+      <link
+        rel="alternate"
+        type="application/rss+xml"
+        title="tsevdos.com &raquo; Feed"
+        href="http://www.tsevdos.com/rss/feed.xml"
+      />
     </Head>
     <div id="wrapper">
       <div id="main">
