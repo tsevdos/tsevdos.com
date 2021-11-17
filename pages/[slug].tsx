@@ -11,12 +11,12 @@ import { PostData } from "../lib/types";
 import Config from "../lib/config";
 import styles from "./page.module.css";
 
-const Page: FC<PostData> = ({ title, date, type, content }) => {
+const Page: FC<PostData> = ({ title, date, type, content, slug }) => {
   const formattedDate = new Date(date).toLocaleDateString("el-GR");
   const disqusConfig = {
-    url: "https://your-site-url/post-slug",
-    identifier: title, // Single post id
-    title: title, // Single post title
+    url: `${Config.url}/${slug}`,
+    identifier: `${Config.url}/${slug}`,
+    title: title,
   };
   const isPostEntry = type === "post";
 

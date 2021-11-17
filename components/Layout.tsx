@@ -23,7 +23,7 @@ const Layout: FC<LayoutProps> = ({ pages, categories, children }) => (
         rel="alternate"
         type="application/rss+xml"
         title="tsevdos.com &raquo; Feed"
-        href="http://www.tsevdos.com/rss/feed.xml"
+        href="https://www.tsevdos.com/rss/feed.xml"
       />
     </Head>
     <div id="wrapper">
@@ -41,6 +41,13 @@ const Layout: FC<LayoutProps> = ({ pages, categories, children }) => (
     <script src="/assets/js/breakpoints.min.js"></script>
     <script src="/assets/js/util.js"></script>
     <script src="/assets/js/main.js"></script>
+    {/* Cloudflare Web Analytics */}
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "4d409df17e3740869bc194b4b9761cdb"}'
+    ></script>
+    {/* End Cloudflare Web Analytics */}
   </>
 );
 
