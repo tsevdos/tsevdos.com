@@ -36,4 +36,3 @@ yarn-error.log*
 # repo specific
 public/rss/**
 next-env.d.ts
-todo.md
