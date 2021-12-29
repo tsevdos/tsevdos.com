@@ -15,7 +15,7 @@ const ContactForm: FC = () => {
   };
 
   return (
-    <form action="https://api.staticforms.xyz/submit" method="post">
+    <form target="_blank" action="https://formsubmit.co/tsevdosjohn@gmail.com" method="POST">
       <input type="hidden" name="accessKey" value="9273204f-e90e-4b4a-b560-e0d00b26dfd4" />
       <div>
         <label>
