@@ -16,7 +16,6 @@ const ContactForm: FC = () => {
 
   return (
     <form target="_blank" action="https://formsubmit.co/tsevdosjohn@gmail.com" method="POST">
-      <input type="hidden" name="accessKey" value="9273204f-e90e-4b4a-b560-e0d00b26dfd4" />
       <div>
         <label>
           * Name: <input type="text" name="name" value={name} onChange={updateForm} />
