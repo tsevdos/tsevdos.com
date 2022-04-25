@@ -5,29 +5,58 @@ import matter from "gray-matter";
 import rehypeRaw from "rehype-raw";
 import Head from "next/head";
 import { getAllSlugs, getCategories, getPages, getDataFromSlug } from "../lib/helpers";
+import Layout from "../components/Layout";
 import ContactForm from "../components/ContactForm";
 import { PostData } from "../lib/types";
 import Config from "../lib/config";
-import styles from "./page.module.css";
 
-const Page: FC<PostData> = ({ title, date, type, content }) => {
-  const formattedDate = new Date(date).toLocaleDateString("el-GR");
-  const isPostEntry = type === "post";
- 
+type PageProps = {
+  pages: PostData[];
+  categories: string[];
+  title: PostData["title"];
+  postCategories: PostData["categories"];
+  date: PostData["date"];
+  type: PostData["type"];
+  content: PostData["content"];
+};
+
+const Page: FC<PageProps> = ({ pages, categories, title, type, postCategories, date, content }) => {
+  const isContactPage = title === "Contact";
+  const isPost = type === "post";
+  const formattedDate = new Date(date).toLocaleDateString("en-GB");
+
   return (
     <>
       <Head>
         <title>{`${title} - ${Config.title}`}</title>
       </Head>
+      <Layout pages={pages} categories={categories}>
+        <div className="bg-white">
+          <div className="space-y-16 container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-32">
+            <div className="text-center prose prose-indigo prose-lg mx-auto">
+              {isPost && (
+                <div className="text-sm uppercase font-bold tracking-wider mb-1 text-indigo-700">
+                  {postCategories.map((cat) => cat).join(", ")}
+                </div>
+              )}
+              <h1 className="text-3xl md:text-4xl font-extrabold mb-4">{title}</h1>
+              {isPost && (
+                <p className="text-lg font-semibold md:text-xl md:leading-relaxed text-gray-600 lg:w-2/3 mx-auto">
+                  {formattedDate}
+                </p>
+              )}
+            </div>
 
-      <header className={styles.header}>
-        <h1>{title}</h1>
-        {isPostEntry && <p>{formattedDate}</p>}
-      </header>
-      <hr />
-      <ReactMarkdown rehypePlugins={[rehypeRaw]}>{content}</ReactMarkdown>
-
-      {title === "Contact" && <ContactForm />}
+            <article className="prose prose-indigo prose-lg mx-auto">
+              {isContactPage ? (
+                <ContactForm />
+              ) : (
+                <ReactMarkdown rehypePlugins={[rehypeRaw]}>{content}</ReactMarkdown>
+              )}
+            </article>
+          </div>
+        </div>
+      </Layout>
     </>
   );
 };
@@ -47,6 +76,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   return {
     props: {
       ...data,
+      postCategories: data.categories ?? [],
       content,
       pages,
       categories,
