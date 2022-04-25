@@ -1,16 +1,19 @@
-import { FC } from "react";
+import { FC, ReactNode } from "react";
 import Head from "next/head";
 import Header from "../components/Header";
-import Sidebar from "../components/Sidebar";
+import Hero from "./Hero";
+import Footer from "./Footer";
 import Config from "../lib/config";
 import { PostData } from "../lib/types";
 
 type LayoutProps = {
   pages: PostData[];
   categories: string[];
+  children: ReactNode;
+  withHero?: boolean;
 };
 
-const Layout: FC<LayoutProps> = ({ pages, categories, children }) => (
+const Layout: FC<LayoutProps> = ({ withHero = false, pages, categories, children }) => (
   <>
     <Head>
       <meta charSet="utf-8" />
@@ -18,7 +21,6 @@ const Layout: FC<LayoutProps> = ({ pages, categories, children }) => (
       <meta name="Description" content={Config.tagline}></meta>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.ico" />
-      <link rel="stylesheet" href="/assets/css/main.css" />
       <link
         rel="alternate"
         type="application/rss+xml"
@@ -26,28 +28,11 @@ const Layout: FC<LayoutProps> = ({ pages, categories, children }) => (
         href="https://www.tsevdos.com/rss/feed.xml"
       />
     </Head>
-    <div id="wrapper">
-      <div id="main">
-        <div className="inner">
-          <Header />
-          <section>{children}</section>
-        </div>
-      </div>
-      <Sidebar pages={pages} categories={categories} />
-    </div>
 
-    <script src="/assets/js/jquery.min.js"></script>
-    <script src="/assets/js/browser.min.js"></script>
-    <script src="/assets/js/breakpoints.min.js"></script>
-    <script src="/assets/js/util.js"></script>
-    <script src="/assets/js/main.js"></script>
-    {/* Cloudflare Web Analytics */}
-    <script
-      defer
-      src="https://static.cloudflareinsights.com/beacon.min.js"
-      data-cf-beacon='{"token": "4d409df17e3740869bc194b4b9761cdb"}'
-    ></script>
-    {/* End Cloudflare Web Analytics */}
+    <Header pages={pages} />
+    {withHero && <Hero />}
+    <main>{children}</main>
+    <Footer categories={categories} />
   </>
 );
 
