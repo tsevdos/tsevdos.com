@@ -66,12 +66,12 @@ const Hero: FC = () => (
             </a>
             . Εργάζομαι full-time στην{" "}
             <a
-              href="https://www.epignosishq.com"
+              href="https://www.orfium.com"
               target="_blank"
               rel="noreferrer"
               className="text-2xl font-bold text-blue-500 underline decoration-blue-500"
             >
-              Epignosis
+              Orfium
             </a>{" "}
             και μοιράζομαι τις γνώσεις μου σε JavaScript και React στο{" "}
             <a
