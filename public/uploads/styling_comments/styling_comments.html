@@ -1,107 +1,118 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-	<head>
-	    <title>Styling comments : Tsevdos.com way</title>
-		<script type="text/javascript" src="jquery-1.2.6.min.js"></script>
-		<script type="text/javascript">
-		    //<![CDATA[
-		    $(document).ready(function (){
-				$('#comments ol li').each(function(i) {
-					i++;
-					var node = '<span class="comment_number">' + i + '<\/span>';
-					$(this).prepend(node);
-				});
-			});
-		    //]]>
-		</script>
-		
-		<style type="text/css" media="screen">
-			a { font-size: 0.8em; font-family: Tahoma, Verdana,  sans-serif; }
-			a:link { color: #2EA0C6; }
-			a:visited { color: #7d7f81; text-decoration: underline; }
-			a:hover, a:active { color: #ff6d1e; text-decoration: none; }
-			
-		    #comments {
-			   margin: 2em 1em 1em;
-			}
-   
-			#comments ol {
-			   padding: 0;
-			   list-style-type: none;
-			}
-   
-			#comments ol li {
-			   margin: 1em 0 0;
-			   padding: 1em;
-			   list-style-type: none;
-			   border: 1px solid #ccc;
-			}
-   
-			#comments ol li:hover {
-			   border: 1px solid #333;
-			}
-   
-			#comments ol li.alt {
-			   background: #f0f0f0;
-			}
+  <head>
+    <title>Styling comments : Tsevdos.com way</title>
+    <script type="text/javascript" src="jquery-1.2.6.min.js"></script>
+    <script type="text/javascript">
+      //<![CDATA[
+      $(document).ready(function () {
+        $("#comments ol li").each(function (i) {
+          i++;
+          var node = '<span class="comment_number">' + i + "<\/span>";
+          $(this).prepend(node);
+        });
+      });
+      //]]>
+    </script>
 
-			#comments ol li .author_meta {
-			   font-size: 1.1em;
-			   font-weight: bold;
-			}
+    <style type="text/css" media="screen">
+      a {
+        font-size: 0.8em;
+        font-family: Tahoma, Verdana, sans-serif;
+      }
+      a:link {
+        color: #2ea0c6;
+      }
+      a:visited {
+        color: #7d7f81;
+        text-decoration: underline;
+      }
+      a:hover,
+      a:active {
+        color: #ff6d1e;
+        text-decoration: none;
+      }
 
-			#comments ol li .comment_meta {
-			   text-align: right;
-			}
+      #comments {
+        margin: 2em 1em 1em;
+      }
 
-			#comments ol li .comment_number {
-			   color: #ccc;
-			   font-size: 2.5em;
-			   font-weight: bold;
-			   line-height: 1em;
-			   float: right;
-			}
-   
-			#comments ol li.alt .comment_number {
-			   color: #fff;
-			}
-		</style>
-	</head>
-	<body>
-	    <div id="comments">
-			<ol>
-				<li>
-					<div class="author_meta"><a href="http://www.tsevdos.com" >John Tsevdos</a> :</div>
-					<div class="comment_body">
-						<p>Comment body goes here.</p>
-					</div>
-					<div class="comment_meta"><a href="#comment-937">May 14th, 2008 at 10:10 am</a></div>
-				</li>
-   
-				<li class="alt">
-					<div class="author_meta"><a href="http://www.tsevdos.com" >John Tsevdos</a> :</div>
-					<div class="comment_body">
-						<p>Comment body goes here.</p>
-					</div>
-					<div class="comment_meta"><a href="#comment-938">May 14th, 2008 at 10:10 am</a></div>
-				</li>
-				<li>
-					<div class="author_meta"><a href="http://www.tsevdos.com" >John Tsevdos</a> :</div>
-					<div class="comment_body">
-						<p>Comment body goes here.</p>
-					</div>
-					<div class="comment_meta"><a href="#comment-937">May 14th, 2008 at 10:10 am</a></div>
-				</li>
+      #comments ol {
+        padding: 0;
+        list-style-type: none;
+      }
 
-				<li class="alt">
-					<div class="author_meta"><a href="http://www.tsevdos.com" >John Tsevdos</a> :</div>
-					<div class="comment_body">
-						<p>Comment body goes here.</p>
-					</div>
-					<div class="comment_meta"><a href="#comment-938">May 14th, 2008 at 10:10 am</a></div>
-				</li>
-			</ol>
-		</div>
-	</body>
+      #comments ol li {
+        margin: 1em 0 0;
+        padding: 1em;
+        list-style-type: none;
+        border: 1px solid #ccc;
+      }
+
+      #comments ol li:hover {
+        border: 1px solid #333;
+      }
+
+      #comments ol li.alt {
+        background: #f0f0f0;
+      }
+
+      #comments ol li .author_meta {
+        font-size: 1.1em;
+        font-weight: bold;
+      }
+
+      #comments ol li .comment_meta {
+        text-align: right;
+      }
+
+      #comments ol li .comment_number {
+        color: #ccc;
+        font-size: 2.5em;
+        font-weight: bold;
+        line-height: 1em;
+        float: right;
+      }
+
+      #comments ol li.alt .comment_number {
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="comments">
+      <ol>
+        <li>
+          <div class="author_meta"><a href="http://www.tsevdos.com">John Tsevdos</a> :</div>
+          <div class="comment_body">
+            <p>Comment body goes here.</p>
+          </div>
+          <div class="comment_meta"><a href="#comment-937">May 14th, 2008 at 10:10 am</a></div>
+        </li>
+
+        <li class="alt">
+          <div class="author_meta"><a href="http://www.tsevdos.com">John Tsevdos</a> :</div>
+          <div class="comment_body">
+            <p>Comment body goes here.</p>
+          </div>
+          <div class="comment_meta"><a href="#comment-938">May 14th, 2008 at 10:10 am</a></div>
+        </li>
+        <li>
+          <div class="author_meta"><a href="http://www.tsevdos.com">John Tsevdos</a> :</div>
+          <div class="comment_body">
+            <p>Comment body goes here.</p>
+          </div>
+          <div class="comment_meta"><a href="#comment-937">May 14th, 2008 at 10:10 am</a></div>
+        </li>
+
+        <li class="alt">
+          <div class="author_meta"><a href="http://www.tsevdos.com">John Tsevdos</a> :</div>
+          <div class="comment_body">
+            <p>Comment body goes here.</p>
+          </div>
+          <div class="comment_meta"><a href="#comment-938">May 14th, 2008 at 10:10 am</a></div>
+        </li>
+      </ol>
+    </div>
+  </body>
 </html>

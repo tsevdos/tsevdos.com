@@ -1,91 +1,122 @@
-﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head>
-<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
     <title>Accessible sidebar - from Tsevdos.com</title>
-	<style type="text/css" media="screen">
-	    * {
-			margin: 0;
-			padding: 0;
-		}
-		
-		#sidebar {
-			width: 500px;
-			margin: 20px;
-			margin-bottom: 15px;
-			border-left: 1px solid #999;
-		}
-		
-		#navigation {
-			list-style-type: none;
-		}
-		
-		a:link, a:visited {
-			color: #fff;
-			background: #ccc;
-			padding: 1px 5px 0;
-			text-decoration: none;
-			font-weight: bold;
-		}
-		
-		a:hover, a:active, a.selected {
-			color: #fff;
-			background: #999;
-		}
-		
-		#navigation li {
-			list-style-type: none;
-			float: left;
-			border: 1px solid #999;
-			border-width: 1px 1px 0 0;
-		}
-		
-		#sidebar div {
-			clear: left;
-			padding: 10px;
-			border: 1px solid #999;
-			border-width: 1px 1px 1px 0;
-		}
-		
-	</style>
-	
-	<script type="text/javascript" src="jquery-1.2.6.min.js"></script>
-	<script type="text/javascript">
-	    //<![CDATA[
-	    $(document).ready(function(){
-			$('#sidebar #navigation li a').click(function(){
-				$('#sidebar > div').hide().filter(this.hash).fadeIn();
-				$('#sidebar #navigation li a').removeClass('selected');
-				$(this).addClass('selected');
-				return false;
-			}).filter(':first').click();
-		});
-	    //]]>
-	</script>
-</head>
-<body>
+    <style type="text/css" media="screen">
+      * {
+        margin: 0;
+        padding: 0;
+      }
 
-<div id="sidebar">
-	<ul id="navigation">
-		<li><a href="#first_div" title="First container">Section 1</a></li>
-		<li><a href="#second_div" title="Second container">Section 2</a></li>
-		<li><a href="#third_div" title="Third container">Section 3</a></li>
-	</ul>
-   
-	<div id="first_div">
-		<h2>Η markup (XHTML)</h2>
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vestibulum mollis consequat turpis. Vivamus condimentum magna. Quisque aliquam, dolor nec imperdiet tempus, lorem est lobortis leo, vel porta elit lorem eget odio. Nulla urna pede, porta nec, vulputate vitae, tincidunt vel, pede. Nullam in nibh vitae arcu volutpat dictum? Fusce tortor mauris, volutpat quis, iaculis vel, tincidunt ac, urna. Phasellus venenatis ullamcorper metus. Cras in eros sed risus commodo rutrum. Nullam non velit. Pellentesque nibh justo, accumsan et, rutrum vel, facilisis a, tortor. Phasellus erat nulla, porttitor at, dignissim viverra, fermentum et, nibh?</p>
-	</div>
-   
-	<div id="second_div">
-		<h2>H CSS</h2>
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vestibulum mollis consequat turpis. Vivamus condimentum magna. Quisque aliquam, dolor nec imperdiet tempus, lorem est lobortis leo, vel porta elit lorem eget odio. Nulla urna pede, porta nec, vulputate vitae, tincidunt vel, pede. Nullam in nibh vitae arcu volutpat dictum? Fusce tortor mauris, volutpat quis, iaculis vel, tincidunt ac, urna. Phasellus venenatis ullamcorper metus. Cras in eros sed risus commodo rutrum. Nullam non velit. Pellentesque nibh justo, accumsan et, rutrum vel, facilisis a, tortor. Phasellus erat nulla, porttitor at, dignissim viverra, fermentum et, nibh?</p>
-	</div>
-   
-	<div id="third_div">
-		<h2>Και τέλος η Javascript (jQuery)</h2>
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vestibulum mollis consequat turpis. Vivamus condimentum magna. Quisque aliquam, dolor nec imperdiet tempus, lorem est lobortis leo, vel porta elit lorem eget odio. Nulla urna pede, porta nec, vulputate vitae, tincidunt vel, pede. Nullam in nibh vitae arcu volutpat dictum? Fusce tortor mauris, volutpat quis, iaculis vel, tincidunt ac, urna. Phasellus venenatis ullamcorper metus. Cras in eros sed risus commodo rutrum. Nullam non velit. Pellentesque nibh justo, accumsan et, rutrum vel, facilisis a, tortor. Phasellus erat nulla, porttitor at, dignissim viverra, fermentum et, nibh?</p>
-	</div>
-</div>
-</body>
+      #sidebar {
+        width: 500px;
+        margin: 20px;
+        margin-bottom: 15px;
+        border-left: 1px solid #999;
+      }
+
+      #navigation {
+        list-style-type: none;
+      }
+
+      a:link,
+      a:visited {
+        color: #fff;
+        background: #ccc;
+        padding: 1px 5px 0;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      a:hover,
+      a:active,
+      a.selected {
+        color: #fff;
+        background: #999;
+      }
+
+      #navigation li {
+        list-style-type: none;
+        float: left;
+        border: 1px solid #999;
+        border-width: 1px 1px 0 0;
+      }
+
+      #sidebar div {
+        clear: left;
+        padding: 10px;
+        border: 1px solid #999;
+        border-width: 1px 1px 1px 0;
+      }
+    </style>
+
+    <script type="text/javascript" src="jquery-1.2.6.min.js"></script>
+    <script type="text/javascript">
+      //<![CDATA[
+      $(document).ready(function () {
+        $("#sidebar #navigation li a")
+          .click(function () {
+            $("#sidebar > div").hide().filter(this.hash).fadeIn();
+            $("#sidebar #navigation li a").removeClass("selected");
+            $(this).addClass("selected");
+            return false;
+          })
+          .filter(":first")
+          .click();
+      });
+      //]]>
+    </script>
+  </head>
+  <body>
+    <div id="sidebar">
+      <ul id="navigation">
+        <li><a href="#first_div" title="First container">Section 1</a></li>
+        <li><a href="#second_div" title="Second container">Section 2</a></li>
+        <li><a href="#third_div" title="Third container">Section 3</a></li>
+      </ul>
+
+      <div id="first_div">
+        <h2>Η markup (XHTML)</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vestibulum mollis consequat
+          turpis. Vivamus condimentum magna. Quisque aliquam, dolor nec imperdiet tempus, lorem est
+          lobortis leo, vel porta elit lorem eget odio. Nulla urna pede, porta nec, vulputate vitae,
+          tincidunt vel, pede. Nullam in nibh vitae arcu volutpat dictum? Fusce tortor mauris,
+          volutpat quis, iaculis vel, tincidunt ac, urna. Phasellus venenatis ullamcorper metus.
+          Cras in eros sed risus commodo rutrum. Nullam non velit. Pellentesque nibh justo, accumsan
+          et, rutrum vel, facilisis a, tortor. Phasellus erat nulla, porttitor at, dignissim
+          viverra, fermentum et, nibh?
+        </p>
+      </div>
+
+      <div id="second_div">
+        <h2>H CSS</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vestibulum mollis consequat
+          turpis. Vivamus condimentum magna. Quisque aliquam, dolor nec imperdiet tempus, lorem est
+          lobortis leo, vel porta elit lorem eget odio. Nulla urna pede, porta nec, vulputate vitae,
+          tincidunt vel, pede. Nullam in nibh vitae arcu volutpat dictum? Fusce tortor mauris,
+          volutpat quis, iaculis vel, tincidunt ac, urna. Phasellus venenatis ullamcorper metus.
+          Cras in eros sed risus commodo rutrum. Nullam non velit. Pellentesque nibh justo, accumsan
+          et, rutrum vel, facilisis a, tortor. Phasellus erat nulla, porttitor at, dignissim
+          viverra, fermentum et, nibh?
+        </p>
+      </div>
+
+      <div id="third_div">
+        <h2>Και τέλος η Javascript (jQuery)</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vestibulum mollis consequat
+          turpis. Vivamus condimentum magna. Quisque aliquam, dolor nec imperdiet tempus, lorem est
+          lobortis leo, vel porta elit lorem eget odio. Nulla urna pede, porta nec, vulputate vitae,
+          tincidunt vel, pede. Nullam in nibh vitae arcu volutpat dictum? Fusce tortor mauris,
+          volutpat quis, iaculis vel, tincidunt ac, urna. Phasellus venenatis ullamcorper metus.
+          Cras in eros sed risus commodo rutrum. Nullam non velit. Pellentesque nibh justo, accumsan
+          et, rutrum vel, facilisis a, tortor. Phasellus erat nulla, porttitor at, dignissim
+          viverra, fermentum et, nibh?
+        </p>
+      </div>
+    </div>
+  </body>
 </html>

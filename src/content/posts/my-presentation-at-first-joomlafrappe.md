@@ -16,7 +16,7 @@ tags:
   - slides
 ---
 
-Για όσους δεν κατάφεραν να έρθουν στο πρώτο [Joomlafrappe](http://joomlafrappe.gr/ "JoomlaFrappe") μπορείτε να βρείτε παρακάτω τόσο το video της παρουσίασης μου, όσο και τα [slides της](/uploads/joomlafrappe/ "Pragmatic Responsive Web Design by John Tsevdos"). Δυστυχώς ο ήχος μας την έσκασε λίγο ωστόσο με λίγη υπομονή ίσως καταφέρεται να με αντέξετε μέχρι το τέλος.
+Για όσους δεν κατάφεραν να έρθουν στο πρώτο [Joomlafrappe](http://joomlafrappe.gr/ "JoomlaFrappe") μπορείτε να βρείτε παρακάτω τόσο το video της παρουσίασης μου, όσο και τα [slides της](/uploads/joomlafrappe/PragmaticResponsiveWebDesign-JohnTsevdos.pdf "Pragmatic Responsive Web Design by John Tsevdos"). Δυστυχώς ο ήχος μας την έσκασε λίγο ωστόσο με λίγη υπομονή ίσως καταφέρεται να με αντέξετε μέχρι το τέλος.
 
 Θα ήθελα να ευχαριστήσω τον [Φώτη Ευαγγέλου](https://twitter.com/fevangelou "Φώτης Ευαγγέλου") για την εξαιρετική προσπάθεια που ξεκίνησε, την πολύ καλή οργάνωση και τον πολύ όμορφο χώρο. Το [Joomlafrappe](http://joomlafrappe.gr/ "JoomlaFrappe") θα γίνεται κάθε μήνα και μπορείτε να δηλώσετε συμμετοχή ως ακροατής αλλά και ως ομιλητής (αρκεί να έχετε να πείτε κάτι καλό στην ελληνική web κοινότητα). Enjoy...
 
