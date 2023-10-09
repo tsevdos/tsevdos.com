@@ -65,7 +65,7 @@
 			});
 			
 			//Write the plug in
-			$(this).bind("keyup", function(e) {
+			$(this).bind("keyup", function(_e) {
 			
 				//Store the value of the input
 				var $value = $(this).attr('value');

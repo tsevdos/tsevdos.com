@@ -5,7 +5,7 @@ type Props = CollectionEntry<"posts">;
 
 const {
   slug,
-  data: { categories, date, title },
+  data: { date, title },
 } = Astro.props;
 const formattedDate = new Date(date).toLocaleDateString("en-GB", {
   day: "numeric",

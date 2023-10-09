@@ -2,7 +2,7 @@
 import type { GetStaticPaths } from "astro";
 import { getCollection } from "astro:content";
 import Layout from "../layouts/Layout.astro";
-import { getAllSortedPosts, type Page, type Post } from "../lib/helpers";
+import { getAllSortedPosts, type Post } from "../lib/helpers";
 import Config from "../lib/config";
 
 export const getStaticPaths = (async () => {
@@ -12,14 +12,13 @@ export const getStaticPaths = (async () => {
   return [...pages, ...posts].map((page) => ({ params: { slug: page.slug }, props: { ...page } }));
 }) satisfies GetStaticPaths;
 
-type Props = Page | Post;
-
-console.log(Astro.props);
+type Props = Post; // | Page;
 
 const {
-  data: { title, date, type = null, categories = [] },
+  data: { title, date, type = null, categories },
   render,
 } = Astro.props;
+
 const { Content } = await render();
 const isPost = type === "post";
 const formattedDate = new Date(date).toLocaleDateString("en-GB");
