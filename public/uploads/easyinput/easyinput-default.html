@@ -1,110 +1,118 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Easy:input, a jQuery plug in from Tsevdos.com</title>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Easy:input, a jQuery plug in from Tsevdos.com</title>
 
-<style type="text/css">
-* {
-	padding: 0;
-	margin: 0;
-}
+    <style type="text/css">
+      * {
+        padding: 0;
+        margin: 0;
+      }
 
-body {
-	color: #353230;
-	background: #faf9f4;
-	font-family: Cambria, Georgia, Times, Times New Roman, serif;
-}
+      body {
+        color: #353230;
+        background: #faf9f4;
+        font-family:
+          Cambria,
+          Georgia,
+          Times,
+          Times New Roman,
+          serif;
+      }
 
-#container {
-	width: 700px;
-	margin: 2em auto 0;
-}
+      #container {
+        width: 700px;
+        margin: 2em auto 0;
+      }
 
-a:link {
-	color: #353230;
-	border-bottom: 1px dashed #353230;
-	text-decoration: none;
-}
+      a:link {
+        color: #353230;
+        border-bottom: 1px dashed #353230;
+        text-decoration: none;
+      }
 
-a:visited {
-	color: #8c8681;
-	border-bottom: none;
-	text-decoration: none;
-}
+      a:visited {
+        color: #8c8681;
+        border-bottom: none;
+        text-decoration: none;
+      }
 
-a:hover, a:active {
-	color: #353230;
-	border-bottom: 1px solid #353230;
-}
+      a:hover,
+      a:active {
+        color: #353230;
+        border-bottom: 1px solid #353230;
+      }
 
-h1#header {
-	padding: 0.5em;
-	color: #353230;
-	font-size: 2em;
-}
+      h1#header {
+        padding: 0.5em;
+        color: #353230;
+        font-size: 2em;
+      }
 
-h1#header small {
-	margin: 0.5em 0;
-	font-size: 0.4em;
-	display: block;
-}
+      h1#header small {
+        margin: 0.5em 0;
+        font-size: 0.4em;
+        display: block;
+      }
 
-fieldset {
-	margin-top: 20px;
-	padding: 20px;
-}
+      fieldset {
+        margin-top: 20px;
+        padding: 20px;
+      }
 
-legend {
-	padding: 5px;
-	border: 1px solid #353230;
-}
+      legend {
+        padding: 5px;
+        border: 1px solid #353230;
+      }
 
-label {
-	display: block;
-	margin-bottom: 10px;
-}
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
 
-#footer {
-	padding: 1em 2em 0.5em;
-}
-</style>
+      #footer {
+        padding: 1em 2em 0.5em;
+      }
+    </style>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
-<script src="jquery.easyinput.js" type="text/javascript"></script>
+    <script
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="jquery.easyinput.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-	$(document).ready(function() {
-		$(':text, :textarea').easyinput();
-	});
-</script>
-
-</head>
-<body>
-<div id="container">
-
-	<h1 id="header"><a href="http://plugins.jquery.com/project/easyinput" title="Easy:input">Easy:input</a> <small>a free jQuery plugin from <a href="http://www.tsevdos.com">Tsevdos.com</a></small></h1>
-	<form action="#">
-		<fieldset>
-			<legend>Personal Info:</legend>
-			<label for="name">Name:<input type="text" id="name" /></label>
-			<label for="surname">Surname:<input type="text" id="surname" /></label>
-			<label for="password">Password:<input type="password" id="password" /></label>
-		</fieldset>
-		<fieldset>
-			<legend>Address:</legend>
-			<label for="street">Sreet:<input type="text" id="street" /></label>
-			<label for="city">City:<input type="text" id="city" /></label>
-			<label for="zip">Zip Code:<input type="text" id="zip" /></label>
-		</fieldset>
-		<fieldset>
-			<legend>Message:</legend>
-			<label for="comment">Comment:<textarea name="text" id="comment"></textarea></label>
-		</fieldset>
-	</form>
-
-</div>
-</body>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(":text, :textarea").easyinput();
+      });
+    </script>
+  </head>
+  <body>
+    <div id="container">
+      <h1 id="header">
+        <a href="http://plugins.jquery.com/project/easyinput" title="Easy:input">Easy:input</a>
+        <small>a free jQuery plugin from <a href="http://www.tsevdos.com">Tsevdos.com</a></small>
+      </h1>
+      <form action="#">
+        <fieldset>
+          <legend>Personal Info:</legend>
+          <label for="name">Name:<input type="text" id="name" /></label>
+          <label for="surname">Surname:<input type="text" id="surname" /></label>
+          <label for="password">Password:<input type="password" id="password" /></label>
+        </fieldset>
+        <fieldset>
+          <legend>Address:</legend>
+          <label for="street">Sreet:<input type="text" id="street" /></label>
+          <label for="city">City:<input type="text" id="city" /></label>
+          <label for="zip">Zip Code:<input type="text" id="zip" /></label>
+        </fieldset>
+        <fieldset>
+          <legend>Message:</legend>
+          <label for="comment">Comment:<textarea name="text" id="comment"></textarea></label>
+        </fieldset>
+      </form>
+    </div>
+  </body>
 </html>
