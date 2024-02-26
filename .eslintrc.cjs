@@ -1,10 +1,11 @@
 module.exports = {
-  extends: ["plugin:astro/recommended"],
+  extends: [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:astro/recommended",
+  ],
   parser: "@typescript-eslint/parser",
-  parserOptions: {
-    sourceType: "module",
-    ecmaVersion: "latest",
-  },
+  plugins: ["@typescript-eslint"],
   overrides: [
     {
       files: ["*.astro"],
@@ -19,4 +20,7 @@ module.exports = {
       },
     },
   ],
+  rules: {
+    "@typescript-eslint/triple-slash-reference": "off",
+  },
 };
