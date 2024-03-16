@@ -18,14 +18,16 @@ export const getStaticPaths = (async () => {
 
 type Props = InferGetStaticPropsType<typeof getStaticPaths>;
 
+const { title, tagline } = Config;
 const { num } = Astro.params;
 const { posts } = Astro.props;
+const { href } = Astro.url;
 const pageNumInt = parseInt(num ?? "1", 10);
 const paginatedPosts = getPageOfPosts(posts, pageNumInt);
 const paginationPros = getPagination(pageNumInt, posts.length);
 ---
 
-<Layout title={`${Config.title} | ${Config.tagline}`}>
+<Layout title={`${title} | ${tagline}`} description={`${title} | ${tagline}`} url={href}>
   <div class="space-y-6 container mx-auto px-4 py-12 lg:px-8 lg:py-32 xl:max-w-7xl">
     <h2 class="text-center text-3xl md:text-4xl md:text-left font-extrabold">
       Page {paginationPros.currentPage} of all posts
