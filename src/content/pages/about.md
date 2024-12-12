@@ -10,4 +10,4 @@ type: "page"
 
 Τον ελεύθερο μου χρόνο ασχολούμαι με δυναμικά σπορ (MMA, grappling και Kick Boxing), βλέπω ταινίες και διαβάζω βιβλία...
 
-Για περισσότερες πληροφορίες ρίξτε μια ματιά στο [βιογραφικό μου](https://tsevdos.me/john_tsevdos_cv.pdf "John Tsevdos CV").
+Για περισσότερες πληροφορίες ρίξτε μια ματιά στο [βιογραφικό μου](https://public.tsevdos.me/john_tsevdos_cv.pdf "John Tsevdos CV").
