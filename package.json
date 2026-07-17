@@ -8,11 +8,11 @@
     "build": "bun run check && astro build && cp ./_redirects ./dist",
     "preview": "astro preview",
     "check": "bun check:lint && bun check:format && astro check",
-    "check:lint": "oxlint",
-    "check:format": "oxfmt --check",
-    "fix": "bun fix:lint && bun fix:format",
-    "fix:lint": "oxlint --fix",
-    "fix:format": "oxfmt",
+    "check:lint": "bunx oxlint",
+    "check:format": "bunx oxfmt --check",
+    "fix": "bunx fix:lint && bunx fix:format",
+    "fix:lint": "bunx oxlint --fix",
+    "fix:format": "bunx oxfmt",
     "astro": "astro"
   },
   "dependencies": {
