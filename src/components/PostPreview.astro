@@ -4,7 +4,7 @@ import type { CollectionEntry } from "astro:content";
 type Props = CollectionEntry<"posts">;
 
 const {
-  slug,
+  id,
   data: { date, title },
 } = Astro.props;
 const formattedDate = new Date(date).toLocaleDateString("en-GB", {
@@ -16,7 +16,7 @@ const formattedDate = new Date(date).toLocaleDateString("en-GB", {
 
 <div class="my-2 lg:my-3">
   <a
-    href={`/${slug}`}
+    href={`/${id}`}
     class="transition group flex flex-row items-center p-4 border-b overflow-hidden border-gray-300 cursor-pointer hover:bg-indigo-100"
   >
     <div class="hidden lg:block basis-1/12 font-semibold leading-4 text-sm text-indigo-700">

@@ -1,26 +1,25 @@
 ---
 import type { GetStaticPaths } from "astro";
-import { getCollection } from "astro:content";
+import { getCollection, render } from "astro:content";
 import Layout from "../layouts/Layout.astro";
-import { getAllSortedPosts, type Post } from "../lib/helpers";
+import { getAllSortedPosts, type Post, type Page } from "../lib/helpers";
 import Config from "../lib/config";
 
 export const getStaticPaths = (async () => {
   const pages = await getCollection("pages");
   const posts = await getAllSortedPosts();
 
-  return [...pages, ...posts].map((page) => ({ params: { slug: page.slug }, props: { ...page } }));
+  return [...pages, ...posts].map((page) => ({ params: { slug: page.id }, props: { page } }));
 }) satisfies GetStaticPaths;
 
-type Props = Post; // | Page;
+type Props = { page: Post | Page };
 
 const { href } = Astro.url;
-const {
-  data: { title, date, type = null, categories },
-  render,
-} = Astro.props;
+const { page } = Astro.props;
+const { title, date, type } = page.data;
+const categories = "categories" in page.data ? page.data.categories : [];
 
-const { Content } = await render();
+const { Content } = await render(page);
 const isPost = type === "post";
 const formattedDate = new Date(date).toLocaleDateString("en-GB");
 ---

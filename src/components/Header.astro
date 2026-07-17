@@ -24,9 +24,9 @@ const pages = await getCollection("pages");
       >
         <nav class="space-x-4 md:space-x-6">
           {
-            pages.map(({ slug, data: { title } }) => (
+            pages.map(({ id, data: { title } }) => (
               <a
-                href={`/${slug}`}
+                href={`/${id}`}
                 class="font-semibold text-gray-300 hover:text-gray-400 hover:underline"
               >
                 {title}
