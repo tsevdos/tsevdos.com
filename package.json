@@ -22,7 +22,7 @@
     "@astrojs/sitemap": "3.7.3",
     "@tailwindcss/typography": "^0.5.20",
     "@tailwindcss/vite": "^4.3.3",
-    "astro": "7.1.0",
+    "astro": "^7.1.0",
     "astro-integration-lottie": "^0.3.2",
     "lottie-web": "^5.13.0",
     "tailwindcss": "^4.3.3"
@@ -31,6 +31,6 @@
     "oxfmt": "^0.59.0",
     "oxlint": "^1.74.0",
     "prettier": "^3.9.5",
-    "typescript": "^7.0.2"
+    "typescript": "^6.0.3"
   }
 }

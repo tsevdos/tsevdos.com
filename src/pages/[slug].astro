@@ -16,9 +16,8 @@ type Props = { page: Post | Page };
 
 const { href } = Astro.url;
 const { page } = Astro.props;
-const {
-  data: { title, date, type = null, categories = [] },
-} = page;
+const { title, date, type } = page.data;
+const categories = "categories" in page.data ? page.data.categories : [];
 
 const { Content } = await render(page);
 const isPost = type === "post";
